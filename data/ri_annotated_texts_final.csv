@@ -1,15 +1,15 @@
-Version initiale,Version retraitée,Stratégie
+Version initiale,Version retraitée,Catégorie
 Dispositif d'apprentissage du français : permet de gagner en autonomie au quotidien grâce à des ateliers sociolinguistiques et cours de français langue professionnelle,"Des ateliers 2 fois par semaine pour progresser en français, mieux communiquer au quotidien et dans le milieu professionnel. 
 Bon à savoir
-Une adhésion de 15 € / an à l'association est demandée lors de l'inscription.",Complement
-Dispositif d'apprentissage du français : permet de gagner en autonomie au quotidien grâce à des ateliers sociolinguistiques et cours de français langue professionnelle,"Des ateliers 2 fois par semaine pour progresser en français, mieux communiquer au quotidien et dans le milieu professionnel.",Complement
-Dispositif d'apprentissage du français : permet de gagner en autonomie au quotidien grâce à des ateliers sociolinguistiques et cours de français langue professionnelle,"Des ateliers pour progresser en français, mieux communiquer au quotidien et dans le milieu professionnel.",SynSemantic
+Une adhésion de 15 € / an à l'association est demandée lors de l'inscription.",Explanation
+Dispositif d'apprentissage du français : permet de gagner en autonomie au quotidien grâce à des ateliers sociolinguistiques et cours de français langue professionnelle,"Des ateliers 2 fois par semaine pour progresser en français, mieux communiquer au quotidien et dans le milieu professionnel.",Explanation
+Dispositif d'apprentissage du français : permet de gagner en autonomie au quotidien grâce à des ateliers sociolinguistiques et cours de français langue professionnelle,"Des ateliers pour progresser en français, mieux communiquer au quotidien et dans le milieu professionnel.",Substitution
 Dispositif d'apprentissage du français : permet de gagner en autonomie au quotidien grâce à des ateliers sociolinguistiques et cours de français langue professionnelle,"Des ateliers pour progresser en français, mieux communiquer au quotidien et dans le milieu professionnel.",Compression
 Dispositif d'apprentissage du français : permet de gagner en autonomie au quotidien grâce à des ateliers sociolinguistiques et cours de français langue professionnelle,"Des ateliers pour progresser en français, mieux communiquer au quotidien et dans le milieu professionnel.",Syntactic
 Progresser en français,Progresser en français,Transcription
 "Apprendre le vocabulaire nécessaire pour comprendre les autres
 et s'exprimer en fonction de situations de la vie quotidienne","- Apprendre du vocabulaire, des expressions courantes et utiles.
-- Mieux communiquer à l'oral et à l'écrit et se faire comprendre.",SynSemantic
+- Mieux communiquer à l'oral et à l'écrit et se faire comprendre.",Substitution
 "Apprendre le vocabulaire nécessaire pour comprendre les autres
 et s'exprimer en fonction de situations de la vie quotidienne","- Apprendre du vocabulaire, des expressions courantes et utiles.
 - Mieux communiquer à l'oral et à l'écrit et se faire comprendre.",Syntactic
@@ -17,71 +17,64 @@ Gagner en autonomie,Gagner en autonomie,Transcription
 "Comprendre les différentes démarches administratives de la vie quotidienne, savoir répondre à un courrier, savoir solliciter le bon interlocuteur","- Comprendre les différentes démarches administratives au quotidien : documents, formulaires, factures...
 - Répondre à un courrier, savoir quel service contacter...",Syntactic
 "Comprendre les différentes démarches administratives de la vie quotidienne, savoir répondre à un courrier, savoir solliciter le bon interlocuteur","- Comprendre les différentes démarches administratives au quotidien : documents, formulaires, factures...
-- Répondre à un courrier, savoir quel service contacter...",SynSemantic
+- Répondre à un courrier, savoir quel service contacter...",Substitution
 "Comprendre les différentes démarches administratives de la vie quotidienne, savoir répondre à un courrier, savoir solliciter le bon interlocuteur","- Comprendre les différentes démarches administratives au quotidien : documents, formulaires, factures...
 - Répondre à un courrier, savoir quel service contacter...",Transposition
 "Comprendre les différentes démarches administratives de la vie quotidienne, savoir répondre à un courrier, savoir solliciter le bon interlocuteur","- Comprendre les différentes démarches administratives au quotidien : documents, formulaires, factures...
-- Répondre à un courrier, savoir quel service contacter...",Examples
-Se familiariser avec le numérique,Apprendre à utiliser le numérique,SynSemantic
+- Répondre à un courrier, savoir quel service contacter...",Explanation
+Se familiariser avec le numérique,Apprendre à utiliser le numérique,Substitution
 "Savoir utiliser les mails, maitriser les applications smartphone permettant de réaliser des démarches administratives (CAF, CPAM, France Travail, .). Se familiariser avec l'utilisation de l'ordinateur","- Savoir utiliser un ordinateur et un smartphone : applications
 pour faire des démarches administratives : CAF, France Travail...
 - Aller sur Internet, créer une adresse mail...",Syntactic
 "Savoir utiliser les mails, maitriser les applications smartphone permettant de réaliser des démarches administratives (CAF, CPAM, France Travail, .). Se familiariser avec l'utilisation de l'ordinateur","- Savoir utiliser un ordinateur et un smartphone : applications
 pour faire des démarches administratives : CAF, France Travail...
-- Aller sur Internet, créer une adresse mail...",SynSemantic
-"Savoir utiliser les mails, maitriser les applications smartphone permettant de réaliser des démarches administratives (CAF, CPAM, France Travail, .). Se familiariser avec l'utilisation de l'ordinateur","- Aller sur Internet, créer une adresse mail...",Examples
+- Aller sur Internet, créer une adresse mail...",Substitution
+"Savoir utiliser les mails, maitriser les applications smartphone permettant de réaliser des démarches administratives (CAF, CPAM, France Travail, .). Se familiariser avec l'utilisation de l'ordinateur","- Aller sur Internet, créer une adresse mail...",Explanation
 Perfectionner son niveau de français pour travailler,Apprendre le français pour le travail ,Transposition
-Perfectionner son niveau de français pour travailler,Apprendre le français pour le travail ,SynSemantic
+Perfectionner son niveau de français pour travailler,Apprendre le français pour le travail ,Substitution
 "Cours de français langue professionnelle permettant d'apprendre le vocabulaire spécifique à un secteur d'activité, comprendre le monde du travail en France et les droits et devoirs du salarié","- Apprendre le vocabulaire professionnel et connaître les mots utiles d'un métier.
 - Comprendre le monde du travail : explications sur les droits et devoirs du salarié.",Syntactic
 "Cours de français langue professionnelle permettant d'apprendre le vocabulaire spécifique à un secteur d'activité, comprendre le monde du travail en France et les droits et devoirs du salarié","- Apprendre le vocabulaire professionnel et connaître les mots utiles d'un métier.
 - Comprendre le monde du travail : explications sur les droits et devoirs du salarié.",Compression
 "Cours de français langue professionnelle permettant d'apprendre le vocabulaire spécifique à un secteur d'activité, comprendre le monde du travail en France et les droits et devoirs du salarié","- Apprendre le vocabulaire professionnel et connaître les mots utiles d'un métier.
-- Comprendre le monde du travail : explications sur les droits et devoirs du salarié.",SynSemantic
-Permanence d'inscription,Inscription chaque mardi de 16h à 17h15 ,Complement
-"Permanence d'inscription tous les mardis de 16h à 17h15. Sans rendez vous, renseignements par mail : bernardbazin@example.net , par téléphone ou SMS : 0789.34.01.97","Une permanence d'inscriptions sans rendez-vous a lieu tous les mardis de 16h à 17h15 au 21 place Juliette Le Gall, appt 182 Les tilleuls, 52 200 LANGRES.",Complement
+- Comprendre le monde du travail : explications sur les droits et devoirs du salarié.",Substitution
+Permanence d'inscription,Inscription chaque mardi de 16h à 17h15 ,Explanation
+"Permanence d'inscription tous les mardis de 16h à 17h15. Sans rendez vous, renseignements par mail : bernardbazin@example.net , par téléphone ou SMS : 0789.34.01.97","Une permanence d'inscriptions sans rendez-vous a lieu tous les mardis de 16h à 17h15 au 21 place Juliette Le Gall, appt 182 Les tilleuls, 52 200 LANGRES.",Explanation
 Accompagnement vers l'emploi,Être aidé dans vos démarches et votre insertion professionnelle,Transposition
 Accompagnement vers l'emploi,Être aidé dans vos démarches et votre insertion professionnelle,Modulation
 Accompagnement vers l'emploi,Être aidé dans vos démarches et votre insertion professionnelle,Explanation
 Le programme BOP 104 permet :,Un programme d'accompagnement personnalisé pour réussir votre intégration en France et être autonome avec :,Explanation
-- De trouver un emploi ou une formation,- Des conseils adaptés pour trouver un emploi ou une formation,Complement
-- De progresser en français,- Des cours de français (vocabulaire du quotidien et professionnel),Examples
-- D'être accompagné dans son intégration en France,"- Des ateliers pour comprendre la société française, des sorties culturelles...",Examples
-Trouver un emploi ou une formation,Trouver un travail ou une formation,SynSemantic
-"- Intérim, CDD, CDI et formations","- Rechercher une offre d'emploi (CDD, CDI, intérim) ou une formation.
-- Préparer un CV, une lettre de motivation, un entretien d'embauche.",Examples
-"- Intérim, CDD, CDI et formations","- Rechercher une offre d'emploi (CDD, CDI, intérim) ou une formation.
-- Préparer un CV, une lettre de motivation, un entretien d'embauche.",Complement
+- De trouver un emploi ou une formation,- Des conseils adaptés pour trouver un emploi ou une formation,Explanation
+- De progresser en français,- Des cours de français (vocabulaire du quotidien et professionnel),Explanation
+- D'être accompagné dans son intégration en France,"- Des ateliers pour comprendre la société française, des sorties culturelles...",Explanation
+Trouver un emploi ou une formation,Trouver un travail ou une formation,Substitution
 "- Intérim, CDD, CDI et formations","- Rechercher une offre d'emploi (CDD, CDI, intérim) ou une formation.
 - Préparer un CV, une lettre de motivation, un entretien d'embauche.",Explanation
-"Logistique, l'industrie, le bâtiment/travaux publics, la restauration, les services. et autres secteurs !","Les métiers ou les formations possibles sont la logistique, l'industrie, le bâtiment/travaux publics, la restauration, les services et d’autres secteurs. Vous êtes rémunéré pendant la formation et recevez un salaire si vous travaillez.",Complement
+"Logistique, l'industrie, le bâtiment/travaux publics, la restauration, les services. et autres secteurs !","Les métiers ou les formations possibles sont la logistique, l'industrie, le bâtiment/travaux publics, la restauration, les services et d’autres secteurs. Vous êtes rémunéré pendant la formation et recevez un salaire si vous travaillez.",Explanation
 "Logistique, l'industrie, le bâtiment/travaux publics, la restauration, les services. et autres secteurs !","Les métiers ou les formations possibles sont la logistique, l'industrie, le bâtiment/travaux publics, la restauration, les services et d’autres secteurs. Vous êtes rémunéré pendant la formation et recevez un salaire si vous travaillez.",Transposition
 - Selon votre projet professionnel,"- Répondre à des questions sur votre situation personnelle et professionnelle : logement, sécurité sociale, emploi, formation...
-- Avoir des conseils personnalisés en fonction de votre situation",Complement
-- Selon votre projet professionnel,"- Répondre à des questions sur votre situation personnelle et professionnelle : logement, sécurité sociale, emploi, formation...
-- Avoir des conseils personnalisés en fonction de votre situation",Examples
-Parler français,Progresser en français,SynSemantic
+- Avoir des conseils personnalisés en fonction de votre situation",Explanation
+Parler français,Progresser en français,Substitution
 - Cours de français qui peuvent être rémunérés,"- Mieux communiquer en français à l'oral et à l'écrit.
-- Renforcer votre vocabulaire : français du quotidien et du monde du travail.",Complement
+- Renforcer votre vocabulaire : français du quotidien et du monde du travail.",Explanation
 - Ateliers en groupe / binômes,- Ateliers en groupes et en binômes,Syntactic
 - Applications pour progresser,- Utilisation d'applications mobiles et de sites internet pour pratiquer,Explanation
-Avoir de l'aide sociale et administrative,Avoir de l’aide dans vos démarches administratives,SynSemantic
+Avoir de l'aide sociale et administrative,Avoir de l’aide dans vos démarches administratives,Substitution
 - Trouver un logement,- Trouver un logement,Transcription
-- Avoir une visite chez le médecin ou un psychologue,- Prendre rendez-vous chez un médecin ou un psychologue,SynSemantic
-- Avoir des aides financières,"- Avoir des aides financières : CAF, France Travail...",Examples
-- Ouvrir un compte bancaire,"- Ouvrir un compte bancaire, passer le permis de conduire, renouveler une carte de séjour...",Examples
-"- Accéder aux transports (bus, métro, permis...)","- Se déplacer et utiliser les transports : bus, métro...",SynSemantic
-S'intégrer en France,Découvrir le fonctionnement de la société,SynSemantic
+- Avoir une visite chez le médecin ou un psychologue,- Prendre rendez-vous chez un médecin ou un psychologue,Substitution
+- Avoir des aides financières,"- Avoir des aides financières : CAF, France Travail...",Explanation
+- Ouvrir un compte bancaire,"- Ouvrir un compte bancaire, passer le permis de conduire, renouveler une carte de séjour...",Explanation
+"- Accéder aux transports (bus, métro, permis...)","- Se déplacer et utiliser les transports : bus, métro...",Substitution
+S'intégrer en France,Découvrir le fonctionnement de la société,Substitution
 S'intégrer en France,Découvrir le fonctionnement de la société,Explanation
-- Avoir les codes professionnels,"- Comprendre le monde du travail en France : codes sociaux, procédures, bulletin de salaire...",Examples
 - Avoir les codes professionnels,"- Comprendre le monde du travail en France : codes sociaux, procédures, bulletin de salaire...",Explanation
-- Comprendre les démarches administratives- ,"- Comprendre les démarches administratives : santé, logement, travail...",Examples
+- Comprendre les démarches administratives- ,"- Comprendre les démarches administratives : santé, logement, travail...",Explanation
 "Le BOP 104 propose des ateliers pour comprendre la vie quotidienne et la culture française et s'intégrer.
 - Faire du sport.
 - Rencontrer d'autres personnes","- Faire du sport, participer à des sorties culturelles, à des ateliers de cuisine...",Omission
 "Le BOP 104 propose des ateliers pour comprendre la vie quotidienne et la culture française et s'intégrer.
 - Faire du sport.
-- Rencontrer d'autres personnes","- Faire du sport, participer à des sorties culturelles, à des ateliers de cuisine...",Complement
+- Rencontrer d'autres personnes","- Faire du sport, participer à des sorties culturelles, à des ateliers de cuisine...",Explanation
 Contactez-moi !,Si vous avez des questions,Modulation
 "Envoyez-moi Un mail :
 lorraine12@example.com
@@ -93,13 +86,13 @@ lorraine12@example.com
 +33 5 35 44 27 88","Vous pouvez envoyer un mail à
 lorrainelambert@example.net ou appelez
 le +33 5 35 44 27 88.",Compression
-Et ensuite... ,Les étapes pour s'inscrire,SynSemantic
+Et ensuite... ,Les étapes pour s'inscrire,Substitution
 - Premier rendez-vous : Je vous rencontre pour échanger de vos projets professionnels et vos besoins,"- Envoyez un mail ou appelez la référente de ce programme.
 - Elle vous donnera un rendez-vous pour connaître votre parcours professionnel et vos besoins.",Modulation
 - Premier rendez-vous : Je vous rencontre pour échanger de vos projets professionnels et vos besoins,"- Envoyez un mail ou appelez la référente de ce programme.
-- Elle vous donnera un rendez-vous pour connaître votre parcours professionnel et vos besoins.",Complement
-Apprendre la langue française,Evaluer votre niveau et trouver un cours de français à Rennes,Complement
-Vous habitez Rennes ou Rennes Métropole.,Une évaluation individuelle ouverte aux habitants de Rennes et Rennes Métropole pour :,Complement
+- Elle vous donnera un rendez-vous pour connaître votre parcours professionnel et vos besoins.",Explanation
+Apprendre la langue française,Evaluer votre niveau et trouver un cours de français à Rennes,Explanation
+Vous habitez Rennes ou Rennes Métropole.,Une évaluation individuelle ouverte aux habitants de Rennes et Rennes Métropole pour :,Explanation
 Vous habitez Rennes ou Rennes Métropole.,Une évaluation individuelle ouverte aux habitants de Rennes et Rennes Métropole pour :,Syntactic
 Vous souhaitez apprendre le français. Nous vous proposons un rendez-vous pour faire test de français.,"- Connaître votre niveau de français oral et écrit
 
@@ -108,38 +101,34 @@ Le rendez-vous d'évaluation dure 40 minutes, avec un test de français et une c
 Vous souhaitez apprendre le français. Nous vous proposons un rendez-vous pour faire test de français.,"- Connaître votre niveau de français oral et écrit
 
 Bon à savoir :
-Le rendez-vous d'évaluation dure 40 minutes, avec un test de français et une conversation sur votre projet. ",Complement
+Le rendez-vous d'évaluation dure 40 minutes, avec un test de français et une conversation sur votre projet. ",Explanation
 "Ensuite, nous vous proposons un cours de français adapté à vos besoins dans l'une de nos structures partenaires.",- Vous aider à trouver un cours proche de votre domicile.,Syntactic
 "Ensuite, nous vous proposons un cours de français adapté à vos besoins dans l'une de nos structures partenaires.",- Vous aider à trouver un cours proche de votre domicile.,Compression
-Un cours adapté à vos besoins,Conseils pour trouver et choisir un cours de français adapté,Complement
+Un cours adapté à vos besoins,Conseils pour trouver et choisir un cours de français adapté,Explanation
 "Une évaluatrice compétente vous accueille et vous propose un cours adapté à vos besoins (disponibilité, objectif spécifique)","Aide pour trouver le cours adapté :
 - à votre situation (cours en journée, le soir, le week-end)
 - à vos besoins (progresser à l'écrit, apprendre le vocabulaire de la vie quotidienne ou professionnelle, passer un examen officiel : TCF, DELF..)
- - proche de chez vous ou de votre travail.",Complement
+ - proche de chez vous ou de votre travail.",Explanation
 "Une évaluatrice compétente vous accueille et vous propose un cours adapté à vos besoins (disponibilité, objectif spécifique)","Aide pour trouver le cours adapté :
 - à votre situation (cours en journée, le soir, le week-end)
 - à vos besoins (progresser à l'écrit, apprendre le vocabulaire de la vie quotidienne ou professionnelle, passer un examen officiel : TCF, DELF..)
  - proche de chez vous ou de votre travail.",Syntactic
-"Une évaluatrice compétente vous accueille et vous propose un cours adapté à vos besoins (disponibilité, objectif spécifique)","Aide pour trouver le cours adapté :
-- à votre situation (cours en journée, le soir, le week-end)
-- à vos besoins (progresser à l'écrit, apprendre le vocabulaire de la vie quotidienne ou professionnelle, passer un examen officiel : TCF, DELF..)
- - proche de chez vous ou de votre travail.",Examples
-Près de chez vous,Rendez-vous avec un professionnel près de chez vous,Complement
-"Nous vous rencontrons dans un des quartiers de la ville selon votre convenance : Adrien Pereira, Le Blosne, Centre","Un professeur de FLE (français langue étrangère) est disponible dans un des quartiers de Rennes (Maurepas, Le Blosne et Centre).",SynSemantic
-Téléphoner le 1er lundi du mois,Inscription par téléphone le premier lundi du mois,Complement
-Téléphoner le 1er lundi du mois au 03 64 00 96 35. Une évaluatrice vous accueille et vous propose un rendez-vous pour un test de français. ,"Le premier lundi de chaque mois, appelez au 0321960604 pour prendre rendez-vous et faire l'évaluation de français.",SynSemantic
+Près de chez vous,Rendez-vous avec un professionnel près de chez vous,Explanation
+"Nous vous rencontrons dans un des quartiers de la ville selon votre convenance : Adrien Pereira, Le Blosne, Centre","Un professeur de FLE (français langue étrangère) est disponible dans un des quartiers de Rennes (Maurepas, Le Blosne et Centre).",Substitution
+Téléphoner le 1er lundi du mois,Inscription par téléphone le premier lundi du mois,Explanation
+Téléphoner le 1er lundi du mois au 03 64 00 96 35. Une évaluatrice vous accueille et vous propose un rendez-vous pour un test de français. ,"Le premier lundi de chaque mois, appelez au 0321960604 pour prendre rendez-vous et faire l'évaluation de français.",Substitution
 Apprendre le français,Apprendre le français,Transposition
-Vous avez entre 18 et 25 ans? ,Vous avez entre 18 et 25 ans et vous avez signé le Contrat d'intégration républicaine (CIR) ? ,Complement
-Vous avez entre 18 et 25 ans? ,Vous avez entre 18 et 25 ans et vous avez signé le Contrat d'intégration républicaine (CIR) ? ,SynAcronyme
+Vous avez entre 18 et 25 ans? ,Vous avez entre 18 et 25 ans et vous avez signé le Contrat d'intégration républicaine (CIR) ? ,Explanation
+Vous avez entre 18 et 25 ans? ,Vous avez entre 18 et 25 ans et vous avez signé le Contrat d'intégration républicaine (CIR) ? ,Synonymy
 Vous voulez apprendre le français?,Vous voulez apprendre le français ? ,Transposition
 Vous ne savez pas où et quoi chercher? ,Vous ne savez pas où et quoi chercher ? ,Transposition
 Vous ne connaissez pas votre niveau de français?,Vous ne connaissez pas votre niveau de français ? ,Transposition
-"Avec l'action ""Coordination linguistique 2024-2025"", la Mission Locale de Paris accompagne 120 bénéficiaires primo-arrivants signataires du CIR dans",La Mission Locale de Paris propose à 120 bénéficiaires du CIR un programme d'accompagnement personnalisé pour,SynSemantic
+"Avec l'action ""Coordination linguistique 2024-2025"", la Mission Locale de Paris accompagne 120 bénéficiaires primo-arrivants signataires du CIR dans",La Mission Locale de Paris propose à 120 bénéficiaires du CIR un programme d'accompagnement personnalisé pour,Substitution
 "Avec l'action ""Coordination linguistique 2024-2025"", la Mission Locale de Paris accompagne 120 bénéficiaires primo-arrivants signataires du CIR dans",La Mission Locale de Paris propose à 120 bénéficiaires du CIR un programme d'accompagnement personnalisé pour,Syntactic
 "Avec l'action ""Coordination linguistique 2024-2025"", la Mission Locale de Paris accompagne 120 bénéficiaires primo-arrivants signataires du CIR dans",La Mission Locale de Paris propose à 120 bénéficiaires du CIR un programme d'accompagnement personnalisé pour,Omission
 "l'apprentissage du français (test, recherche et orientation vers des cours de français adaptés à vos besoins).","- apprendre le français : test de niveau, recherche et orientation vers des cours adaptés à vos besoins",Syntactic
 "En parallèle, votre conseiller.ère est présent pour vous aider dans vos démarches sociales et professionnelles.","- être aidé dans vos démarches sociales et professionnelles : emploi, logement...",Syntactic
-"En parallèle, votre conseiller.ère est présent pour vous aider dans vos démarches sociales et professionnelles.","- être aidé dans vos démarches sociales et professionnelles : emploi, logement...",Examples
+"En parallèle, votre conseiller.ère est présent pour vous aider dans vos démarches sociales et professionnelles.","- être aidé dans vos démarches sociales et professionnelles : emploi, logement...",Explanation
 "En parallèle, votre conseiller.ère est présent pour vous aider dans vos démarches sociales et professionnelles.","- être aidé dans vos démarches sociales et professionnelles : emploi, logement...",Transposition
 Tester le niveau et être orienté vers la bonne formation,Tester votre niveau et être orienté vers la bonne formation,Modulation
 "Pendant l'évaluation, nous testons votre niveau oral et écrit, nous parlons de votre parcours et vos attentes.","Vous allez connaître votre niveau de français : 
@@ -151,11 +140,11 @@ attentes.",Syntactic
 - Évaluation à l'écrit (écrire et lire un texte)
 - Évaluation à l'oral (comprendre et parler)
 - Parler de votre parcours et de vos
-attentes.",Examples
-Pratiquer le français en continu,Pratiquer le français à l'oral et à l'écrit,SynSemantic
+attentes.",Explanation
+Pratiquer le français en continu,Pratiquer le français à l'oral et à l'écrit,Substitution
 "Des ateliers conversationnels sont animés une à deux fois par
 semaine par une équipe de bénévoles spécialisée dans l'accueil
-du public primo-arrivant.",Vous participez à des ateliers collectifs une à deux fois par semaine avec une équipe de bénévoles spécialisée :,SynSemantic
+du public primo-arrivant.",Vous participez à des ateliers collectifs une à deux fois par semaine avec une équipe de bénévoles spécialisée :,Substitution
 "Des ateliers conversationnels sont animés une à deux fois par
 semaine par une équipe de bénévoles spécialisée dans l'accueil
 du public primo-arrivant.",Vous participez à des ateliers collectifs une à deux fois par semaine avec une équipe de bénévoles spécialisée :,Syntactic
@@ -165,7 +154,7 @@ du public primo-arrivant.",Vous participez à des ateliers collectifs une à deu
 "Pendant ces ateliers, nous parlons de différents sujets de la vie de tous les jours. C'est Un moment pour pratiquer le français à l'oral et passer un moment convivial en groupe. 
 ",- Ateliers de conversation en français. Parler des sujets de la vie quotidienne Passer un bon moment en groupe,Syntactic
 "Pendant ces ateliers, nous parlons de différents sujets de la vie de tous les jours. C'est Un moment pour pratiquer le français à l'oral et passer un moment convivial en groupe. 
-",- Ateliers de conversation en français. Parler des sujets de la vie quotidienne Passer un bon moment en groupe,SynSemantic
+",- Ateliers de conversation en français. Parler des sujets de la vie quotidienne Passer un bon moment en groupe,Substitution
 De sorties culturelles sont aussi organisées ponctuellement dans les musées parisiens ou sous forme de balades urbaines.,- De sorties culturelles sont aussi organisées tout au long de l'année : visites de musées parisiens ou balades urbaines.,Syntactic
 Accompagner l'insertion sociale et professionnelle,Être accompagné dans votre insertion,Modulation
 Accompagner l'insertion sociale et professionnelle,Être accompagné dans votre insertion,Omission
@@ -178,41 +167,37 @@ Accompagner l'insertion sociale et professionnelle,Être accompagné dans votre 
 - administratif
 - santé
 - rechercher un travail ou une formation
-- logement...",Examples
+- logement...",Explanation
 "Après l'entrée en formation, vous êtes suivi.e en formation par le/la chargé de mission et par votre conseiller.ère pour les questions sociales et professionnelles. ","Un chargé de mission et un conseiller en insertion professionnelle vous aident dans toutes vos difficultés quotidiennes :
 - administratif
 - santé
 - rechercher un travail ou une formation
-- logement...",SynSemantic
+- logement...",Substitution
 "Après votre formation, selon vos progrès et vos besoins, des cours complémentaires sont proposés ou vous travaillez directement sur votre projet professionnel.","Après la formation, en fonction de vos progrès et de vos besoins, il est possible de suivre d'autres cours de français ou de travailler sur votre projet professionnel.",Transposition
 Inscrivez-vous à la Mission Locale de Paris,S'inscrire à la Mission Locale de Paris,Modulation
 "L'inscription à la Mission Locale de Paris est nécessaire pour
 bénéficier de l'action. L'accueil du public a lieu sur les 6 sites parisiens :","Vous pouvez venir vous inscrire sur l'un des sites de la Mission Locale de Paris (voir la carte ci-dessous pour les adresses et les horaires d'ouverture), selon l'arrondissement où vous habitez.",Explanation
 "L'inscription à la Mission Locale de Paris est nécessaire pour
-bénéficier de l'action. L'accueil du public a lieu sur les 6 sites parisiens :","Vous pouvez venir vous inscrire sur l'un des sites de la Mission Locale de Paris (voir la carte ci-dessous pour les adresses et les horaires d'ouverture), selon l'arrondissement où vous habitez.",SynSemantic
+bénéficier de l'action. L'accueil du public a lieu sur les 6 sites parisiens :","Vous pouvez venir vous inscrire sur l'un des sites de la Mission Locale de Paris (voir la carte ci-dessous pour les adresses et les horaires d'ouverture), selon l'arrondissement où vous habitez.",Substitution
 "L'inscription à la Mission Locale de Paris est nécessaire pour
 bénéficier de l'action. L'accueil du public a lieu sur les 6 sites parisiens :","Vous pouvez venir vous inscrire sur l'un des sites de la Mission Locale de Paris (voir la carte ci-dessous pour les adresses et les horaires d'ouverture), selon l'arrondissement où vous habitez.",Modulation
 "L'association Laurent Perrin propose aux migrants demandeurs d'asile ou ayant été déboutés des consultations qui peuvent relever d'un simple accompagnement psychique, d'une psychothérapie, d'un traitement spécialisé ou d'une association des deux.","L'association Laurent Perrin propose un accompagnement et un suivi psychologique aux personnes exilées victimes de tout type de traumatismes, violences ou menaces. L'écoute ou le soutien concerne tous les âges et tous les statuts administratifs : demandeurs d'asile, demandeurs d’'asiles déboutés (demande d'asile rejetée), bénéficiaires d’une protection internationale ou temporaire).",Syntactic
-"L'association Laurent Perrin propose aux migrants demandeurs d'asile ou ayant été déboutés des consultations qui peuvent relever d'un simple accompagnement psychique, d'une psychothérapie, d'un traitement spécialisé ou d'une association des deux.","L'association Laurent Perrin propose un accompagnement et un suivi psychologique aux personnes exilées victimes de tout type de traumatismes, violences ou menaces. L'écoute ou le soutien concerne tous les âges et tous les statuts administratifs : demandeurs d'asile, demandeurs d’'asiles déboutés (demande d'asile rejetée), bénéficiaires d’une protection internationale ou temporaire).",SynSemantic
-"L'association Laurent Perrin propose aux migrants demandeurs d'asile ou ayant été déboutés des consultations qui peuvent relever d'un simple accompagnement psychique, d'une psychothérapie, d'un traitement spécialisé ou d'une association des deux.","L'association Laurent Perrin propose un accompagnement et un suivi psychologique aux personnes exilées victimes de tout type de traumatismes, violences ou menaces. L'écoute ou le soutien concerne tous les âges et tous les statuts administratifs : demandeurs d'asile, demandeurs d’'asiles déboutés (demande d'asile rejetée), bénéficiaires d’une protection internationale ou temporaire).",Complement
+"L'association Laurent Perrin propose aux migrants demandeurs d'asile ou ayant été déboutés des consultations qui peuvent relever d'un simple accompagnement psychique, d'une psychothérapie, d'un traitement spécialisé ou d'une association des deux.","L'association Laurent Perrin propose un accompagnement et un suivi psychologique aux personnes exilées victimes de tout type de traumatismes, violences ou menaces. L'écoute ou le soutien concerne tous les âges et tous les statuts administratifs : demandeurs d'asile, demandeurs d’'asiles déboutés (demande d'asile rejetée), bénéficiaires d’une protection internationale ou temporaire).",Substitution
 "L'association Laurent Perrin propose aux migrants demandeurs d'asile ou ayant été déboutés des consultations qui peuvent relever d'un simple accompagnement psychique, d'une psychothérapie, d'un traitement spécialisé ou d'une association des deux.","L'association Laurent Perrin propose un accompagnement et un suivi psychologique aux personnes exilées victimes de tout type de traumatismes, violences ou menaces. L'écoute ou le soutien concerne tous les âges et tous les statuts administratifs : demandeurs d'asile, demandeurs d’'asiles déboutés (demande d'asile rejetée), bénéficiaires d’une protection internationale ou temporaire).",Explanation
 Procurer des soins spécialisés gratuits adaptés à l'état psychique des migrants.,"- Avoir une aide psychologique adaptée et gratuite
 - Pouvoir parler de ses problèmes, être écouté et avoir des conseils individuels
 - Avoir un suivi adapté à ses besoins : accompagnement psychologique, psychothérapie, traitement spécialisé ou les deux en même temps.",Syntactic
 Procurer des soins spécialisés gratuits adaptés à l'état psychique des migrants.,"- Avoir une aide psychologique adaptée et gratuite
 - Pouvoir parler de ses problèmes, être écouté et avoir des conseils individuels
-- Avoir un suivi adapté à ses besoins : accompagnement psychologique, psychothérapie, traitement spécialisé ou les deux en même temps.",Complement
-Procurer des soins spécialisés gratuits adaptés à l'état psychique des migrants.,"- Avoir une aide psychologique adaptée et gratuite
-- Pouvoir parler de ses problèmes, être écouté et avoir des conseils individuels
-- Avoir un suivi adapté à ses besoins : accompagnement psychologique, psychothérapie, traitement spécialisé ou les deux en même temps.",Examples
+- Avoir un suivi adapté à ses besoins : accompagnement psychologique, psychothérapie, traitement spécialisé ou les deux en même temps.",Explanation
 Procurer des soins spécialisés gratuits adaptés à l'état psychique des migrants.,"- Avoir une aide psychologique adaptée et gratuite
 - Pouvoir parler de ses problèmes, être écouté et avoir des conseils individuels
 - Avoir un suivi adapté à ses besoins : accompagnement psychologique, psychothérapie, traitement spécialisé ou les deux en même temps.",Modulation
-Favoriser leur adaptation et leur intégration.,L'objectif est de favoriser son intégration à la société et de construire de nouveaux repères.,SynSemantic
+Favoriser leur adaptation et leur intégration.,L'objectif est de favoriser son intégration à la société et de construire de nouveaux repères.,Substitution
 "En plus du soin recherché, l'association se propose par le biais des groupes thérapeutiques (communication inter-culturelle, contes pour les francophones, art-thérapie...) de favoriser l'adaptation et l'intégration des migrants.","Participer à des groupes thérapeutiques : découverte de nouvelles cultures, raconter son histoire, art thérapie...",Compression
 "En plus du soin recherché, l'association se propose par le biais des groupes thérapeutiques (communication inter-culturelle, contes pour les francophones, art-thérapie...) de favoriser l'adaptation et l'intégration des migrants.","Participer à des groupes thérapeutiques : découverte de nouvelles cultures, raconter son histoire, art thérapie...",Modulation
 Entretiens dans la langue du patient,Parler dans sa langue avec un interprète,Modulation
-Entretiens dans la langue du patient,Parler dans sa langue avec un interprète,Complement
+Entretiens dans la langue du patient,Parler dans sa langue avec un interprète,Explanation
 L'écoute et les échanges thérapeutiques nécessitent d'être au plus près du vécu et des émotions des patients.,Prendre en compte le vécu et les émotions des personnes,Compression
 L'écoute et les échanges thérapeutiques nécessitent d'être au plus près du vécu et des émotions des patients.,Prendre en compte le vécu et les émotions des personnes,Modulation
 "C'est pourquoi les entretiens individuels se font dans sa langue maternelle par le biais d'une plateforme téléphonique d'interprètes (187 langues), y compris pour ceux qui sont théoriquement francophones mais dont le français n'est pour eux qu'une langue officielle administrative qu'ils maîtrisent souvent difficilement.",Entretiens individuels dans sa langue maternelle par téléphone : 187 langues disponibles avec une plateforme téléphonique dédiée.,Compression
@@ -229,11 +214,11 @@ Accompagnement à l'intégration et aux éventuelles déceptions liées au refus
 - Apprendre à s'intégrer plus facilement dans son lieu de vie",Omission
 "Il s'agit aussi de les aider à se préparer psychologiquement aux diverses étapes de leur parcours, y compris aux rejets administratifs dont ils peuvent être l'objet.",Préparation et soutien psychologique pendant les différentes étapes de son parcours d'asile et d'intégration,Modulation
 "Il s'agit aussi de les aider à se préparer psychologiquement aux diverses étapes de leur parcours, y compris aux rejets administratifs dont ils peuvent être l'objet.",Préparation et soutien psychologique pendant les différentes étapes de son parcours d'asile et d'intégration,Omission
-"Il s'agit aussi de les aider à se préparer psychologiquement aux diverses étapes de leur parcours, y compris aux rejets administratifs dont ils peuvent être l'objet.",Préparation et soutien psychologique pendant les différentes étapes de son parcours d'asile et d'intégration,SynSemantic
+"Il s'agit aussi de les aider à se préparer psychologiquement aux diverses étapes de leur parcours, y compris aux rejets administratifs dont ils peuvent être l'objet.",Préparation et soutien psychologique pendant les différentes étapes de son parcours d'asile et d'intégration,Substitution
 Contact par mail uniquement,Prendre rendez-vous pour une consultation,Modulation
 Contact par mail uniquement,Prendre rendez-vous pour une consultation,Explanation
 kbuisson@example.com,"Pour prendre rendez-vous, vous pouvez envoyer un mail à kbuisson@example.com",Explanation
-Connaître ses droits pour les faire valoir,Connaître ses droits et être accompagné,Complement
+Connaître ses droits pour les faire valoir,Connaître ses droits et être accompagné,Explanation
 "Des permanences d'information juridique reparties sur tout le territoire de la Charente-Maritime (17) : villes, zones rurales, quartiers prioritaires.","Ce sont des permanences juridiques gratuites et confidentielles sur
 tout le territoire de la Charente-Maritime dans les domaines suivants :
 - droit des étrangers (séjour, asile)
@@ -243,67 +228,63 @@ tout le territoire de la Charente-Maritime dans les domaines suivants :
 tout le territoire de la Charente-Maritime dans les domaines suivants :
 - droit des étrangers (séjour, asile)
 - droit de la famille
-- droit civil et droit du travail.",Complement
+- droit civil et droit du travail.",Explanation
 "Une information juridique accessible, confidentielle, individuelle et gratuite",S'informer pour accéder à ses droits,Compression
 "Une information juridique accessible, confidentielle, individuelle et gratuite","S'informer pour accéder à ses droits
 - Connaître ses droits et ses devoirs
 - S'informer sur les démarches administratives en droit des étrangers (séjour, asile), droit de la famille (séparation, pension alimentaire, filiation. ) et droit du travail.",Syntactic
 "Une information juridique accessible, confidentielle, individuelle et gratuite","S'informer pour accéder à ses droits
 - Connaître ses droits et ses devoirs
-- S'informer sur les démarches administratives en droit des étrangers (séjour, asile), droit de la famille (séparation, pension alimentaire, filiation. ) et droit du travail.",Complement
-"Une information juridique accessible, confidentielle, individuelle et gratuite","S'informer pour accéder à ses droits
-- Connaître ses droits et ses devoirs
-- S'informer sur les démarches administratives en droit des étrangers (séjour, asile), droit de la famille (séparation, pension alimentaire, filiation. ) et droit du travail.",Examples
+- S'informer sur les démarches administratives en droit des étrangers (séjour, asile), droit de la famille (séparation, pension alimentaire, filiation. ) et droit du travail.",Explanation
 Une information juridique généraliste sur divers domaines du droit,Rendez-vous individuels et conseils personnalisés,Compression
-"Les juristes du CIDFF17 peuvent répondre à des demandes juridiques très variées (droit civil, droit du travail) avec des spécialités en droit de la famille et droit des étrangers droit de la famille : séparation, pension alimentaire, filiation, etc.","Pendant le rendez-vous, un juriste vous accompagne en fonction de votre situation personnelle et familiale. Vous pouvez être aidé et conseillé dans la réalisation de vos démarches.",SynSemantic
+"Les juristes du CIDFF17 peuvent répondre à des demandes juridiques très variées (droit civil, droit du travail) avec des spécialités en droit de la famille et droit des étrangers droit de la famille : séparation, pension alimentaire, filiation, etc.","Pendant le rendez-vous, un juriste vous accompagne en fonction de votre situation personnelle et familiale. Vous pouvez être aidé et conseillé dans la réalisation de vos démarches.",Substitution
 "Les juristes du CIDFF17 peuvent répondre à des demandes juridiques très variées (droit civil, droit du travail) avec des spécialités en droit de la famille et droit des étrangers droit de la famille : séparation, pension alimentaire, filiation, etc.","Pendant le rendez-vous, un juriste vous accompagne en fonction de votre situation personnelle et familiale. Vous pouvez être aidé et conseillé dans la réalisation de vos démarches.",Syntactic
-Prendre rendez-vous en appelant le CIDFF17 ou directement les Point Justice concernés,Vous pouvez prendre rendez-vous par téléphone au 0449421491 ou contacter directement un Point Justice proche de votre domicile. Les coordonnées complètes sont sur la carte en bas de la fiche.,Complement
+Prendre rendez-vous en appelant le CIDFF17 ou directement les Point Justice concernés,Vous pouvez prendre rendez-vous par téléphone au 0449421491 ou contacter directement un Point Justice proche de votre domicile. Les coordonnées complètes sont sur la carte en bas de la fiche.,Explanation
 Prendre rendez-vous en appelant le CIDFF17 ou directement les Point Justice concernés,Vous pouvez prendre rendez-vous par téléphone au 0449421491 ou contacter directement un Point Justice proche de votre domicile. Les coordonnées complètes sont sur la carte en bas de la fiche.,Syntactic
-Prendre rendez-vous en appelant le CIDFF17 ou directement les Point Justice concernés,Vous pouvez prendre rendez-vous par téléphone au 0449421491 ou contacter directement un Point Justice proche de votre domicile. Les coordonnées complètes sont sur la carte en bas de la fiche.,SynSemantic
+Prendre rendez-vous en appelant le CIDFF17 ou directement les Point Justice concernés,Vous pouvez prendre rendez-vous par téléphone au 0449421491 ou contacter directement un Point Justice proche de votre domicile. Les coordonnées complètes sont sur la carte en bas de la fiche.,Substitution
 Mobilité Inclusive vallée de la Roya,Trouver des solutions pour vous déplacer,Transposition
 Mobilité Inclusive vallée de la Roya,Trouver des solutions pour vous déplacer,Modulation
 "Conseil en mobilité pour accompagner les publics de manière individuelle et par le biais d'ateliers collectifs (diagnostics, sensibilisation, identification de solutions …) avec Adèle Prévost divers toute la semaine sur la vallée de la Roya.",Un accompagnement personnalisé pour être autonome dans vos déplacements dans les Vallées de la Roya et de la Vésubie,Modulation
-"Conseil en mobilité pour accompagner les publics de manière individuelle et par le biais d'ateliers collectifs (diagnostics, sensibilisation, identification de solutions …) avec Adèle Prévost divers toute la semaine sur la vallée de la Roya.",Un accompagnement personnalisé pour être autonome dans vos déplacements dans les Vallées de la Roya et de la Vésubie,SynSemantic
+"Conseil en mobilité pour accompagner les publics de manière individuelle et par le biais d'ateliers collectifs (diagnostics, sensibilisation, identification de solutions …) avec Adèle Prévost divers toute la semaine sur la vallée de la Roya.",Un accompagnement personnalisé pour être autonome dans vos déplacements dans les Vallées de la Roya et de la Vésubie,Substitution
 Pouvoir bouger,- Une présentation des différents modes de déplacement : vélos à assistance électrique...,Explanation
 Pouvoir bouger,- Une présentation des différents modes de déplacement : vélos à assistance électrique...,Syntactic
 Pouvoir bouger,- Une présentation des différents modes de déplacement : vélos à assistance électrique...,Transposition
-apprendre les codes de la route,- des explications pour comprendre et respecter le code de la route.,SynSemantic
+apprendre les codes de la route,- des explications pour comprendre et respecter le code de la route.,Substitution
 - Développement d'une démarche de covoiturage solidaire et de transport solidaire,"- des conseils pour se déplacer plus facilement : covoiturage et
-transport solidaire",SynSemantic
+transport solidaire",Substitution
 Savoir bouger,Être autonome pour vous déplacer,Modulation
 "- comprendre et reconnaitre son environnement
 - être en confiance lors des déplacements
-- être accompagné pour accéder aux services existant","- Savoir où sont les services, les lieux importants et gagner en confiance",SynSemantic
+- être accompagné pour accéder aux services existant","- Savoir où sont les services, les lieux importants et gagner en confiance",Substitution
 - déchiffrer le code de la route,"- Apprendre le vocabulaire du code de la route et de la conduite, connaître les règles de circulation et de sécurité pour tous les usagers de la route",Explanation
 - connaître les facilitations financières pour se déplacer,"- Savoir si vous avez droit à des aides financières pour payer les transports : aides aux déplacements, tarifications sociales, aides au permis, aide à l'achat d'un véhicule...",Explanation
-- connaître les facilitations financières pour se déplacer,"- Savoir si vous avez droit à des aides financières pour payer les transports : aides aux déplacements, tarifications sociales, aides au permis, aide à l'achat d'un véhicule...",Examples
 - connaître les solutions locales / nationales,- Connaître les différentes solutions locales ou nationales,Syntactic
 "Conseil en mobilité pour accompagner les publics de manière individuelle et par le biais d'ateliers collectifs (diagnostics, sensibilisation, identification de solutions …)","- Diagnostic personnalisé, évaluation de vos besoins et accompagnement dans vos choix",Modulation
-"- Mise à disposition d'une flotte de vélos à assistance électrique auprès des publics en situation de précarité mobilité (période de 1 à 3 mois à tarification sociale), ou afin de sensibiliser le grand public au VAE (location à tarification grand public)","- Découvrir les solutions de mobilité du territoire : location de vélo à assistance électrique (VAE) avec une tarification adaptée, utilisation du covoiturage solidaire",SynSemantic
+"- Mise à disposition d'une flotte de vélos à assistance électrique auprès des publics en situation de précarité mobilité (période de 1 à 3 mois à tarification sociale), ou afin de sensibiliser le grand public au VAE (location à tarification grand public)","- Découvrir les solutions de mobilité du territoire : location de vélo à assistance électrique (VAE) avec une tarification adaptée, utilisation du covoiturage solidaire",Substitution
 "- Mise à disposition d'une flotte de vélos à assistance électrique auprès des publics en situation de précarité mobilité (période de 1 à 3 mois à tarification sociale), ou afin de sensibiliser le grand public au VAE (location à tarification grand public)","- Découvrir les solutions de mobilité du territoire : location de vélo à assistance électrique (VAE) avec une tarification adaptée, utilisation du covoiturage solidaire",Omission
-"Contactez Giulia, la spécialiste en mobilité durable et inclusive",Contacter l'équipe Coopgo,SynSemantic
-Auguste Morel,"Auguste Morel, conseillère en mobilité",Complement
+"Contactez Giulia, la spécialiste en mobilité durable et inclusive",Contacter l'équipe Coopgo,Substitution
+Auguste Morel,"Auguste Morel, conseillère en mobilité",Explanation
 Mail : Monique Samson : 0178150020,"- Par mail: Bertrand de Joly Par téléphone : 05 19 65 67 04
 ",Syntactic
-Denis Gimenez-Riou Lallement,"Denis Gimenez-Riou Lallement, responsable projet",Complement
+Denis Gimenez-Riou Lallement,"Denis Gimenez-Riou Lallement, responsable projet",Explanation
 Mail : michele15@example.com Téléphone : +33 5 08 57 42 96,"- par mail : michele15@example.com
 - par téléphone : 05 19 64 54 30",Syntactic
 "Cours de français, ateliers sociaux-linguistiques",Apprendre le français pour être autonome,Modulation
 "Cours de français, ateliers sociaux-linguistiques",Apprendre le français pour être autonome,Transposition
 Cours de français en petits groupes ,"Des cours de français en petits groupes adaptés à votre niveau du lundi au jeudi pour :
 - Mieux communiquer à l'oral et à l'écrit dans la vie quotidienne
-- Découvrir le monde du travail en France et trouver un emploi plus facilement",Complement
-Gagner en autonomie dans la vie quotidienne,Devenir autonome au quotidien,SynSemantic
+- Découvrir le monde du travail en France et trouver un emploi plus facilement",Explanation
+Gagner en autonomie dans la vie quotidienne,Devenir autonome au quotidien,Substitution
 "Faire ses courses, aller à la Poste, chez le médecin, accompagner
 la scolarité des enfants","- Faire ses courses, aller à la Poste, chez le médecin...
 - Suivre la scolarité des enfants.",Syntactic
-Effectuer les démarches administratives,Faire ses démarches administratives,SynSemantic
+Effectuer les démarches administratives,Faire ses démarches administratives,Substitution
 "Apprendre à remplir un formulaire, prendre un RDV, se connecter
 aux sites (Sécurité Sociale, CAF, Impôts etc.)","- Compléter un formulaire, prendre un rendez-vous
 - Apprendre à faire ses démarches sur internet : Sécurité sociale, CAF, impôts..",Syntactic
 "Apprendre à remplir un formulaire, prendre un RDV, se connecter
 aux sites (Sécurité Sociale, CAF, Impôts etc.)","- Compléter un formulaire, prendre un rendez-vous
-- Apprendre à faire ses démarches sur internet : Sécurité sociale, CAF, impôts..",SynSemantic
+- Apprendre à faire ses démarches sur internet : Sécurité sociale, CAF, impôts..",Substitution
 "Comment s'inscrire à France travail, connaitre le marché de
 l'emploi sur le territoire, rédiger son CV, connaitre la législation
 du travail...","- Trouver un travail : connaître les offres sur le territoire, écrire un CV, s'inscrire à France Travail...
@@ -311,19 +292,19 @@ du travail...","- Trouver un travail : connaître les offres sur le territoire, 
 "Comment s'inscrire à France travail, connaitre le marché de
 l'emploi sur le territoire, rédiger son CV, connaitre la législation
 du travail...","- Trouver un travail : connaître les offres sur le territoire, écrire un CV, s'inscrire à France Travail...
-- Comprendre le monde du travail et son fonctionnement (droits, devoirs des salariés...)",Examples
+- Comprendre le monde du travail et son fonctionnement (droits, devoirs des salariés...)",Explanation
 "Comment s'inscrire à France travail, connaitre le marché de
 l'emploi sur le territoire, rédiger son CV, connaitre la législation
 du travail...","- Trouver un travail : connaître les offres sur le territoire, écrire un CV, s'inscrire à France Travail...
-- Comprendre le monde du travail et son fonctionnement (droits, devoirs des salariés...)",SynSemantic
+- Comprendre le monde du travail et son fonctionnement (droits, devoirs des salariés...)",Substitution
 connaitre la législation du travail,"Comprendre le monde du travail et son fonctionnement (droits, devoirs des salariés...)",Explanation
-Pour vous inscrire,Prendre rendez-vous et s'inscrire,Complement
+Pour vous inscrire,Prendre rendez-vous et s'inscrire,Explanation
 "Téléphoner à la coordinatrice pour prendre Marc Philippe :
 06 34 22 79 62","Contactez la coordinatrice pour prendre rendez-vous :
 - par téléphone : 06 34 22 79 62
 - par mail: jacquescharpentier@example.com",Syntactic
 "Téléphoner à la coordinatrice pour prendre Marc Philippe :
-",Contactez la coordinatrice pour prendre rendez-vous :,SynAcronyme
+",Contactez la coordinatrice pour prendre rendez-vous :,Synonymy
 "ou venir lors des permanences :
 Isere
 - Lundi et jeudi matin à la MPT Suzanne-Geneviève Hamel- Mardi matin (9h-11h)
@@ -344,13 +325,13 @@ inscrire sur place lors des permanences :
 - Lundi et jeudi matin (9h-11h) : Maison
 Pour Tous Aurélie Diaz-Hervé - 3 Rue Pasteur -
 38090 Villefontaine.
-",Complement
+",Explanation
 Faire des activités avec d'autres femmes,Faire des activités avec d'autres femmes,Transcription
 "Chaque semaine, un groupe de femmes avec deux bénévoles organise ensemble leur planning du mois : temps de partage café/thé, balade dans la forêt, sorties à la patinoire, au cinéma, au musée, organisation d'un vide-dressing pour s'échanger des vêtements, initiation au yoga, à la céramique...","Chaque semaine, un groupe de femmes avec deux bénévoles organise ensemble leur planning du mois : café/thé, balade en forêt, sorties à la patinoire, au cinéma, au musée, organisation d'un vide-dressing pour s'échanger des vêtements, initiation au yoga, à la céramique...
 ",Transposition
 Ce groupe réservé aux femmes est animé par deux bénévoles qui vous accompagnent à chaque activité.,Ce groupe réservé aux femmes est animé par deux bénévoles qui vous accompagnent à chaque activité.,Transcription
 Rencontrer d'autres femmes,Rencontrer d'autres femmes,Transcription
-"Une quinzaine de femmes se réunissent chaque semaine avec les deux bénévoles. C'est l'occasion de rencontrer des personnes françaises, mais aussi d'autres cultures et de favoriser les échanges.","Une quinzaine de femmes se réunissent chaque semaine avec les deux bénévoles. C'est l'occasion de rencontrer de nouvelles personnes, mais aussi de découvrir d'autres cultures et de pratiquer le français.",SynSemantic
+"Une quinzaine de femmes se réunissent chaque semaine avec les deux bénévoles. C'est l'occasion de rencontrer des personnes françaises, mais aussi d'autres cultures et de favoriser les échanges.","Une quinzaine de femmes se réunissent chaque semaine avec les deux bénévoles. C'est l'occasion de rencontrer de nouvelles personnes, mais aussi de découvrir d'autres cultures et de pratiquer le français.",Substitution
 "Découvrir ma ville, ses activités et la culture française","Découvrir ma ville, ses activités et la culture française",Transcription
 "Ensemble et entre femmes, on peut oser explorer de nouveaux
 lieux dans Nantes et ailleurs, découvrir l'histoire de la ville, des
@@ -364,9 +345,9 @@ associations, des événements, participer à de nouvelles activités","Vous pou
 - Découvrir l'histoire de la ville, des associations, des événements, participer à de nouvelles activités.",Syntactic
 Apprendre le français,Apprendre le français,Transcription
 "Le groupe a une langue commune : le français. A travers les activités et les sorties, les deux bénévoles françaises vous accompagneront dans l'apprentissage du français.","Les échanges se font en français. Grâce aux activités et aux sorties, les deux bénévoles vous aident à progresser et devenir plus autonome en français",Syntactic
-"Le groupe a une langue commune : le français. A travers les activités et les sorties, les deux bénévoles françaises vous accompagneront dans l'apprentissage du français.","Les échanges se font en français. Grâce aux activités et aux sorties, les deux bénévoles vous aident à progresser et devenir plus autonome en français",SynSemantic
+"Le groupe a une langue commune : le français. A travers les activités et les sorties, les deux bénévoles françaises vous accompagneront dans l'apprentissage du français.","Les échanges se font en français. Grâce aux activités et aux sorties, les deux bénévoles vous aident à progresser et devenir plus autonome en français",Substitution
 Contactez-nous,Nous contacter et s'inscrire aux activités,Modulation
-Contactez-nous,Nous contacter et s'inscrire aux activités,Complement
+Contactez-nous,Nous contacter et s'inscrire aux activités,Explanation
 "Vous pouvez venir vous inscrire à cette activité :
 - Sur les permanences sans Marc Philippe les lundis et jeudis entre 10h et
 12h ! Nous sommes situés au centre de la place Margaret Masse-Coulon ; l'entrée se situe derrière le bâtiment au centre de la
@@ -377,7 +358,7 @@ Antoinette Lucas : +33 3 59 30 14 36","Vous pouvez vous inscrire aux activités 
 - par mail : renardstephane@example.net
 - par téléphone : +33 3 59 30 14 36
 - ou venir à nos permanences sans rendez-vous les lundis et jeudis entre 10h et 12h.",Syntactic
-Vous pouvez venir vous inscrire à cette activité :,Vous pouvez vous inscrire aux activités :,SynSemantic
+Vous pouvez venir vous inscrire à cette activité :,Vous pouvez vous inscrire aux activités :,Substitution
 "- Sur les permanences sans Marc Philippe les lundis et jeudis entre 10h et
 12h ! Nous sommes situés au centre de la place Margaret Masse-Coulon ; l'entrée se situe derrière le bâtiment au centre de la
 place.",- ou venir à nos permanences sans rendez-vous les lundis et jeudis entre 10h et 12h.,Compression
@@ -399,13 +380,13 @@ avec :",Explanation
 - une présentation des métiers recherchés par les entreprises,- une présentation des métiers recherchés par les entreprises,Transcription
 - des conseils pour trouver un travail ou une formation,- des conseils pour trouver un travail ou une formation,Transcription
 - Un accompagnement individuel et collectif,- Un accompagnement individuel et collectif,Transcription
-Avoir un vocabulaire précis en français,Améliorer votre niveau de français,SynSemantic
-Connaître le vocabulaire de la construction,"Connaître le vocabulaire de la construction, se répérer dans l'espace",Complement
-- Comprendre les règles de sécurité,"- Comprendre les règles de sécurité, les consignes",Complement
+Avoir un vocabulaire précis en français,Améliorer votre niveau de français,Substitution
+Connaître le vocabulaire de la construction,"Connaître le vocabulaire de la construction, se répérer dans l'espace",Explanation
+- Comprendre les règles de sécurité,"- Comprendre les règles de sécurité, les consignes",Explanation
 - Communiquer avec les collègues et les chefs de chantier pour être autonome.,- Communiquer avec les collègues et les chefs de chantier pour être autonome,Transcription
 Préparer sa candidature dans une entreprise ou formation,Préparer votre candidature dans une entreprise ou formation,Modulation
 Apprendre à vous présenter en français devant un recruteur,Apprendre à vous présenter en français devant un recruteur,Transcription
-- Connaître vos compétences,- Connaître vos compétences et vos qualités,Complement
+- Connaître vos compétences,- Connaître vos compétences et vos qualités,Explanation
 - Parler de vos expériences,- Parler de vos expériences,Transcription
 - Vous mettre en valeur à l'oral et sur un CV,- Vous mettre en valeur à l'oral et sur votre CV,Transcription
 Etre capable de chercher et trouver un travail / formation seule,Être capable de chercher un travail ou une formation,Syntactic
@@ -422,21 +403,21 @@ Rencontrer des entreprises,Rencontrer des entreprises,Transcription
 - Découvrir la menuiserie par la construction d'un objet,- Découvrir la menuiserie par la construction d'un objet,Transcription
 - Rencontrer des organismes de formations,- Rencontrer des organismes de formations,Transcription
 - Visiter des plateaux techniques d'écoles,- Visiter des plateaux techniques d'écoles,Transcription
-Envoyez un SMS,Contacter le centre de formation,SynSemantic
+Envoyez un SMS,Contacter le centre de formation,Substitution
 "Envoyer un message au +33 4 74 50 45 33 avec votre nom, prénom et adresse d'habitation et de domiciliation et le nom du programme ""Les Bâtisseuses en action"".","Envoyer un message au +33 4 74 50 45 33 avec votre nom, prénom et adresse (habitation et courrier), avec une phrase pour dire que vous êtes intéressée par la formation ""Les Bâtisseuses en action”.",Syntactic
-"Envoyer un message au +33 4 74 50 45 33 avec votre nom, prénom et adresse d'habitation et de domiciliation et le nom du programme ""Les Bâtisseuses en action"".","Envoyer un message au +33 4 74 50 45 33 avec votre nom, prénom et adresse (habitation et courrier), avec une phrase pour dire que vous êtes intéressée par la formation ""Les Bâtisseuses en action”.",Complement
+"Envoyer un message au +33 4 74 50 45 33 avec votre nom, prénom et adresse d'habitation et de domiciliation et le nom du programme ""Les Bâtisseuses en action"".","Envoyer un message au +33 4 74 50 45 33 avec votre nom, prénom et adresse (habitation et courrier), avec une phrase pour dire que vous êtes intéressée par la formation ""Les Bâtisseuses en action”.",Explanation
 "Le centre de formation ""We are all builders"" vous donnera un rendez-vous pour une réunion d'information.
 ","2. Le centre de formation ""We are all builders"" vous donnera un rendez-vous pour une réunion d'information.
 ",Transcription
 "Attention, nous ne pouvons accepter SEULEMENT :
 - Les femmes résidentes (ou domiciliées) dans le 93","Attention, nous ne pouvons accepter SEULEMENT les femmes qui habitent ou ont une adresse dans le 93.",Syntactic
-Parler le français et découvrir le vocabulaire pour l'emploi ,Parler le français et apprendre le vocabulaire professionnel,SynSemantic
+Parler le français et découvrir le vocabulaire pour l'emploi ,Parler le français et apprendre le vocabulaire professionnel,Substitution
 "Des ateliers 2 fois par mois en petit groupe pour progresser en français, mieux communiquer au quotidien et dans le milieu professionnel.","Des ateliers 2 fois par mois en petit groupe pour progresser en français, mieux communiquer au quotidien et dans le milieu professionnel.",Transcription
 Le contenu des ateliers est adapté aux besoins des participants.,Le contenu des ateliers est adapté aux besoins des participants.,Transcription
 Améliorer sa pratique de la langue française,Améliorer votre niveau de français,Modulation
-Améliorer sa pratique de la langue française,Améliorer votre niveau de français,SynSemantic
+Améliorer sa pratique de la langue française,Améliorer votre niveau de français,Substitution
 Apprendre le vocabulaire de votre métier,Apprendre le vocabulaire de votre métier,Transcription
-Découvrir le monde du travail en France,"- Découvrir le monde du travail en France (codes en entreprise, droits et devoirs du salarié...).",Examples
+Découvrir le monde du travail en France,"- Découvrir le monde du travail en France (codes en entreprise, droits et devoirs du salarié...).",Explanation
 Lien social,Rencontrer de nouvelles personnes,Explanation
 Lien social,Rencontrer de nouvelles personnes,Transposition
 Rencontrer d'autres personnes et échanger avec convivialité,"Échanger dans une ambiance conviviale
@@ -444,13 +425,13 @@ Rencontrer d'autres personnes et échanger avec convivialité,"Échanger dans un
 Rencontrer d'autres personnes et échanger avec convivialité,"Échanger dans une ambiance conviviale
 - Gagner en confiance et améliorer votre estime de soi.",Syntactic
 Rencontrer d'autres personnes et échanger avec convivialité,"Échanger dans une ambiance conviviale
-- Gagner en confiance et améliorer votre estime de soi.",Complement
+- Gagner en confiance et améliorer votre estime de soi.",Explanation
 Rencontrer d'autres personnes et échanger avec convivialité,"Échanger dans une ambiance conviviale
 - Gagner en confiance et améliorer votre estime de soi.",Modulation
 Devenir autonome,Devenir autonome au quotidien,Explanation
 Apprendre pour présenter son métier,- Savoir présenter votre métier et mieux communiquer au travail.,Modulation
-Apprendre pour présenter son métier,- Savoir présenter votre métier et mieux communiquer au travail.,Complement
-accéder à l'emploi,- Trouver un emploi,SynSemantic
+Apprendre pour présenter son métier,- Savoir présenter votre métier et mieux communiquer au travail.,Explanation
+accéder à l'emploi,- Trouver un emploi,Substitution
 "Mieux communiquer en français
 - Comprendre et développer le vocabulaire associé au monde du travail
 - Comprendre la règlementation et la culture du travail en France
@@ -464,7 +445,7 @@ accéder à l'emploi,- Trouver un emploi,SynSemantic
 - Favoriser son intégration sociale et professionnelle
 - Développer sa confiance et son estime","- Découvrir le monde du travail en France (habitudes en entreprise, droits et devoirs du salarié...)
 - Trouver un travail 
-- Savoir présenter votre métier et vos compétences.",SynSemantic
+- Savoir présenter votre métier et vos compétences.",Substitution
 "Mieux communiquer en français
 - Comprendre et développer le vocabulaire associé au monde du travail
 - Comprendre la règlementation et la culture du travail en France
@@ -476,15 +457,15 @@ Inscription au +33 (0)2 50 16 74 71 ou remy66@example.com,"- Par téléphone : +
 - Par mail : remy66@example.com",Syntactic
 Inscription au +33 (0)2 50 16 74 71 ou remy66@example.com,"- Par téléphone : +33 (0)7 53 14 13 76 O5
 - Par mail : remy66@example.com",Explanation
-Vivre mieux après un trauma,Vivre mieux après un trauma et être accompagné,Complement
+Vivre mieux après un trauma,Vivre mieux après un trauma et être accompagné,Explanation
 "Proposer un accompagnement aux personnes en repli social à cause d'un Trouble de Stress Post-Traumatique.
-","Un accompagnement adapté et personnalisé pour des personnes isolées avec des troubles de stress post-traumatiques (cauchemars, épuisement physique et mental, hallucinations...).",Examples
-Proposer un accompagnement aux personnes en repli social à cause d'un Trouble de Stress Post-Traumatique.,Un accompagnement adapté et personnalisé pour des personnes isolées avec des troubles de stress post-traumatiques.,SynSemantic
+","Un accompagnement adapté et personnalisé pour des personnes isolées avec des troubles de stress post-traumatiques (cauchemars, épuisement physique et mental, hallucinations...).",Explanation
+Proposer un accompagnement aux personnes en repli social à cause d'un Trouble de Stress Post-Traumatique.,Un accompagnement adapté et personnalisé pour des personnes isolées avec des troubles de stress post-traumatiques.,Substitution
 Proposer un accompagnement aux personnes en repli social à cause d'un Trouble de Stress Post-Traumatique.,Un accompagnement adapté et personnalisé pour des personnes isolées avec des troubles de stress post-traumatiques.,Transposition
-Proposer un accompagnement aux personnes en repli social à cause d'un Trouble de Stress Post-Traumatique.,Un accompagnement adapté et personnalisé pour des personnes isolées avec des troubles de stress post-traumatiques.,Complement
+Proposer un accompagnement aux personnes en repli social à cause d'un Trouble de Stress Post-Traumatique.,Un accompagnement adapté et personnalisé pour des personnes isolées avec des troubles de stress post-traumatiques.,Explanation
 Uniquement sur orientation d'un professionnel ou d'un bénévole,Ce parcours se fait uniquement sur orientation d'un professionnel ou d'un bénévole,Transposition
 Mieux comprendre les symptômes du trauma,Mieux comprendre les symptômes du trauma,Transcription
-Les symptômes du Trouble de Stress Post-Traumatique/trauma peuvent être les suivants : ,Les symptômes du trouble de stress post-traumatique peuvent être divers :,SynSemantic
+Les symptômes du Trouble de Stress Post-Traumatique/trauma peuvent être les suivants : ,Les symptômes du trouble de stress post-traumatique peuvent être divers :,Substitution
 "- difficultés à dormir, cauchemars","- difficultés à dormir, cauchemars",Transcription
 - fatigue/épuisement physique et mental,- fatigue/épuisement physique et mental,Transcription
 - difficultés d'apprentissage et de mémorisation,- difficultés à apprendre et à mémoriser,Transposition
@@ -494,33 +475,31 @@ Connaître et comprendre ses symptômes peut permettre de mieux vivre avec,Appre
 Trouver le lieu de soin adapté à ma situation,Trouver un lieu de soins,Omission
 Nous accompagnons à l'entrée en soins:,Nous accompagnons à l'entrée en soins :,Transcription
 "- Notre médecin psychiatre peut vous orienter vers le lieu le plus approprié en rédigeant un courrier,",- Un médecin psychiatre peut vous orienter vers le lieu le plus adapté à votre situation et écrire un courrier,Transposition
-- Notre médiatrice en santé paire peut vous aider à la prise de rendez-vous et vous accompagner si besoin physiquement le jour du rendez-vous.,"- La médiatrice peut vous aider à traduire, à prendre un rendez-vous, et vous accompagner si besoin le jour du rendez-vous",Complement
-- Notre médiatrice en santé paire peut vous aider à la prise de rendez-vous et vous accompagner si besoin physiquement le jour du rendez-vous.,"- La médiatrice peut vous aider à traduire, à prendre un rendez-vous, et vous accompagner si besoin le jour du rendez-vous",SynSemantic
+- Notre médiatrice en santé paire peut vous aider à la prise de rendez-vous et vous accompagner si besoin physiquement le jour du rendez-vous.,"- La médiatrice peut vous aider à traduire, à prendre un rendez-vous, et vous accompagner si besoin le jour du rendez-vous",Explanation
+- Notre médiatrice en santé paire peut vous aider à la prise de rendez-vous et vous accompagner si besoin physiquement le jour du rendez-vous.,"- La médiatrice peut vous aider à traduire, à prendre un rendez-vous, et vous accompagner si besoin le jour du rendez-vous",Substitution
 "Pratiquer une activité qui apporte du plaisir, de la joie dans ma semaine",Pratiquer une activité et se faire plaisir,Modulation
-"Pratiquer une activité qui apporte du plaisir, de la joie dans ma semaine",Pratiquer une activité et se faire plaisir,SynSemantic
+"Pratiquer une activité qui apporte du plaisir, de la joie dans ma semaine",Pratiquer une activité et se faire plaisir,Substitution
 "La personne choisit une activité physique, culturelle, qui lui fait envie,","Vous pouvez choisir une activité physique, culturelle, qui vous fait envie : lecture, cuisine, vélo...",Modulation
-"La personne choisit une activité physique, culturelle, qui lui fait envie,","Vous pouvez choisir une activité physique, culturelle, qui vous fait envie : lecture, cuisine, vélo...",Examples
+"La personne choisit une activité physique, culturelle, qui lui fait envie,","Vous pouvez choisir une activité physique, culturelle, qui vous fait envie : lecture, cuisine, vélo...",Explanation
 - La médiatrice l'accompagne vers le lieu de pratique et reste au besoin,- La médiatrice vous accompagne vers le lieu de pratique et reste si besoin,Modulation
-- La médiatrice l'accompagne vers le lieu de pratique et reste au besoin,- La médiatrice vous accompagne vers le lieu de pratique et reste si besoin,SynSemantic
+- La médiatrice l'accompagne vers le lieu de pratique et reste au besoin,- La médiatrice vous accompagne vers le lieu de pratique et reste si besoin,Substitution
 "- S'il est encore trop difficile de rejoindre un groupe, il est possible de pratiquer l'activité en binôme avec un.e bénévole de notre association.","S'il est encore trop difficile de rejoindre un groupe, il est possible de pratiquer l'activité en binôme avec un bénévole de notre association.",Transcription
 Demander à un professionnel ou un bénévole de prendre contact avec nous en se rendant sur notre site internet :,"Demander à un professionnel ou un bénévole
 de nous contacter",Omission
 Demander à un professionnel ou un bénévole de prendre contact avec nous en se rendant sur notre site internet :,"1. Il faut se rapprocher d'un professionnel en santé mentale ou d'un bénévole et lui parler de ce parcours.
-2. Vous devez leur demander d'aller sur le site d'ECLAT 38 et de contacter l'association pour rejoindre ce parcours.",Complement
+2. Vous devez leur demander d'aller sur le site d'ECLAT 38 et de contacter l'association pour rejoindre ce parcours.",Explanation
 Demander à un professionnel ou un bénévole de prendre contact avec nous en se rendant sur notre site internet :,"1. Il faut se rapprocher d'un professionnel en santé mentale ou d'un bénévole et lui parler de ce parcours.
 2. Vous devez leur demander d'aller sur le site d'ECLAT 38 et de contacter l'association pour rejoindre ce parcours.",Syntactic
 Apprendre le français et être accompagné pour trouver un emploi,Apprendre le français et être accompagné pour trouver un emploi,Transcription
 "Un programme de 4 mois pour apprendre le français et trouver un travail ou une formation, avec :","Un programme de 4 mois pour apprendre le français et trouver un travail ou une formation, avec :",Transcription
 - Un accompagnement sur le projet professionnel,- Un accompagnement sur le projet professionnel,Transcription
 - des ateliers sur le monde du travail en France,- des ateliers sur le monde du travail en France,Transcription
-- une présentation des métiers recherchés par les entreprises,- une présentation des métiers recherchés par les entreprises,Transcription
 - des conseils pour faire un CV et passer un entretien d'embauche,- des conseils pour faire un CV et passer un entretien d'embauche,Transcription
 - de l'aide pour faire les démarches administratives,- de l'aide pour faire les démarches administratives,Transcription
 L'objectif est de devenir autonome dans la vie quotidienne et professionnelle et d'améliorer son niveau de français jusqu'au niveau A2.,L'objectif est de devenir autonome dans la vie quotidienne et professionnelle. Vous pouvez améliorer votre niveau de français et atteindre le niveau A2.,Syntactic
 L'objectif est de devenir autonome dans la vie quotidienne et professionnelle et d'améliorer son niveau de français jusqu'au niveau A2.,L'objectif est de devenir autonome dans la vie quotidienne et professionnelle. Vous pouvez améliorer votre niveau de français et atteindre le niveau A2.,Modulation
 L'objectif est de devenir autonome dans la vie quotidienne et professionnelle et d'améliorer son niveau de français jusqu'au niveau A2.,L'objectif est de devenir autonome dans la vie quotidienne et professionnelle. Vous pouvez améliorer votre niveau de français et atteindre le niveau A2.,Transposition
-Le parcours démarre le 27 janvier jusqu'au 30 mai 2025.,Les cours de français ont lieu 2 jours par semaine pendant 4 mois. Le parcours démarre le 27 janvier jusqu'au 30 mai 2025.,Complement
-Apprendre le français,Apprendre le français,Transcription
+Le parcours démarre le 27 janvier jusqu'au 30 mai 2025.,Les cours de français ont lieu 2 jours par semaine pendant 4 mois. Le parcours démarre le 27 janvier jusqu'au 30 mai 2025.,Explanation
 Se préparer à entrer dans le monde du travail,Se préparer à entrer dans le monde du travail,Transcription
 Recherche d'un métier adapté à vos compétences et aux besoins des entreprises,Recherche d'un métier adapté à vos compétences et aux besoins des entreprises,Transcription
 - Visites et stages dans des entreprises,- Visites et stages dans des entreprises,Transcription
@@ -533,82 +512,79 @@ Faire des activités pour mieux connaître la vie en France,Faire des activités
 - Rencontres et partages avec de nouvelles personnes dans un groupe,- Rencontres et partages avec de nouvelles personnes dans un groupe,Transcription
 Inscription sur internet,Inscription sur internet,Transcription
 Formation en français pour débutants,Apprendre le français niveau débutant,Transposition
-Formation en français pour débutants,Apprendre le français niveau débutant,SynSemantic
+Formation en français pour débutants,Apprendre le français niveau débutant,Substitution
 "173h de formation en français pour étrangers débutants, quatre après-midis par semaine 
 
 
 
 
 
-","Des cours de français pour débutants, 4 après-midis par semaine pendant 4 mois avec :",Complement
+","Des cours de français pour débutants, 4 après-midis par semaine pendant 4 mois avec :",Explanation
 "173h de formation en français pour étrangers débutants, quatre après-midis par semaine 
 
 
 
 
 
-","Des cours de français pour débutants, 4 après-midis par semaine pendant 4 mois avec :",SynSemantic
-- 96h de français pour apprendre à communiquer à l'oral et à l'écrit ,- 96 heures de français pour progresser à l'oral et à l'écrit  ,SynSemantic
-- Un projet artistique collectif (élaboration d'un Journal de bord),- un projet artistique en groupe,SynSemantic
-"- Des ateliers thématiques (confiance en soi, méthodes d'apprentissage, utilisation de l'ordinateur...) et des sorties culturelles","- des ateliers thématiques (méthodes pour mieux apprendre, utilisation de l'ordinateur...)",SynSemantic
+","Des cours de français pour débutants, 4 après-midis par semaine pendant 4 mois avec :",Substitution
+- 96h de français pour apprendre à communiquer à l'oral et à l'écrit ,- 96 heures de français pour progresser à l'oral et à l'écrit  ,Substitution
+- Un projet artistique collectif (élaboration d'un Journal de bord),- un projet artistique en groupe,Substitution
+"- Des ateliers thématiques (confiance en soi, méthodes d'apprentissage, utilisation de l'ordinateur...) et des sorties culturelles","- des ateliers thématiques (méthodes pour mieux apprendre, utilisation de l'ordinateur...)",Substitution
 "- Des ateliers thématiques (confiance en soi, méthodes d'apprentissage, utilisation de l'ordinateur...) et des sorties culturelles","- des ateliers thématiques (méthodes pour mieux apprendre, utilisation de l'ordinateur...)",Omission
 - Un accompagnement individuel pour construire son projet professionnel,- un accompagnement individuel pour construire votre projet professionnel.,Modulation
 "Important
 pour suivre cette formation, il faut être ","Important
-Pour faire cette formation, il faut :",SynSemantic
+Pour faire cette formation, il faut :",Substitution
 - demandeur d'asile,"- avoir la protection internationale (statut de réfugié, bénéficiaire de la protection subsidiaire ou temporaire, apatride)
 ou être en France depuis minimum 5 ans et avoir signé le CIR (Contrat d'intégration républicaine) à l'OFII",Explanation
-- demandeur d'asile,"- avoir la protection internationale (statut de réfugié, bénéficiaire de la protection subsidiaire ou temporaire, apatride)
-ou être en France depuis minimum 5 ans et avoir signé le CIR (Contrat d'intégration républicaine) à l'OFII",Complement
 - être grande débutant en français (écrit et oral),- être grand débutant en français (écrit et oral),Transcription
-- résider à Paris,- habiter à Paris.,SynSemantic
-Apprendre le français,Apprendre le français,Transcription
+- résider à Paris,- habiter à Paris.,Substitution
 "Progresser en français, à l'oral et à l'écrit, pour faciliter votre intégration et atteindre le niveau A11 voire A1.","- Progresser à l'oral et à l'écrit (lire, écrire, communiquer)
 - Atteindre le niveau A1.1 ou A1.",Syntactic
 "Progresser en français, à l'oral et à l'écrit, pour faciliter votre intégration et atteindre le niveau A11 voire A1.","- Progresser à l'oral et à l'écrit (lire, écrire, communiquer)
-- Atteindre le niveau A1.1 ou A1.",Examples
+- Atteindre le niveau A1.1 ou A1.",Explanation
 "Progresser en français, à l'oral et à l'écrit, pour faciliter votre intégration et atteindre le niveau A11 voire A1.","- Progresser à l'oral et à l'écrit (lire, écrire, communiquer)
 - Atteindre le niveau A1.1 ou A1.",Compression
 Se familiariser avec les démarches,Devenir autonome dans votre vie quotidienne,Modulation
-Se familiariser avec les démarches,Devenir autonome dans votre vie quotidienne,SynSemantic
-"Faire les actions basiques sur l'ordinateur (écrire, télécharger, envoyer un document, connexion à internet, boîte mail...)","Utiliser l'ordinateur : écrire, vous connecter à internet, utiliser une boîte mail, télécharger ou envoyer un document...",SynSemantic
+Se familiariser avec les démarches,Devenir autonome dans votre vie quotidienne,Substitution
+"Faire les actions basiques sur l'ordinateur (écrire, télécharger, envoyer un document, connexion à internet, boîte mail...)","Utiliser l'ordinateur : écrire, vous connecter à internet, utiliser une boîte mail, télécharger ou envoyer un document...",Substitution
 "Faire les actions basiques sur l'ordinateur (écrire, télécharger, envoyer un document, connexion à internet, boîte mail...)","Utiliser l'ordinateur : écrire, vous connecter à internet, utiliser une boîte mail, télécharger ou envoyer un document...",Modulation
 "Faire les actions basiques sur l'ordinateur (écrire, télécharger, envoyer un document, connexion à internet, boîte mail...)","Utiliser l'ordinateur : écrire, vous connecter à internet, utiliser une boîte mail, télécharger ou envoyer un document...",Transposition
-"- Savoir faire les démarches administratives pour être autonome (prendre rendez-vous sur le site de la préfecture, faire la déclaration trimestrielle CAF...)","- Faire des démarches administratives : prendre rendez-vous sur le site de la préfecture, faire la déclaration trimestrielle de la CAF...",SynSemantic
+"- Savoir faire les démarches administratives pour être autonome (prendre rendez-vous sur le site de la préfecture, faire la déclaration trimestrielle CAF...)","- Faire des démarches administratives : prendre rendez-vous sur le site de la préfecture, faire la déclaration trimestrielle de la CAF...",Substitution
 "Développer son esprit de
 coopération",Faire partie d'une d'équipe,Modulation
-Travaillez en groupe à l'élaboration d'un projet artistique tout au long de la formation,Travailler en groupe sur un projet artistique (création journal de bord) pendant toute la formation,SynSemantic
-Travaillez en groupe à l'élaboration d'un projet artistique tout au long de la formation,Travailler en groupe sur un projet artistique (création journal de bord) pendant toute la formation,Complement
-Contactez nous!,Contacter l'association ASLC,Complement
+Travaillez en groupe à l'élaboration d'un projet artistique tout au long de la formation,Travailler en groupe sur un projet artistique (création journal de bord) pendant toute la formation,Substitution
+Travaillez en groupe à l'élaboration d'un projet artistique tout au long de la formation,Travailler en groupe sur un projet artistique (création journal de bord) pendant toute la formation,Explanation
+Contactez nous!,Contacter l'association ASLC,Explanation
 Contactez-nous par mail pour expliquer votre situation et vos besoins : robert03@example.org,Envoyez un mail à robert03@example.org pour expliquer votre situation et votre besoin de cours de français.,Explanation
-Trouver un travail,Trouver un travail ou une formation à Nantes,Complement
+Trouver un travail,Trouver un travail ou une formation à Nantes,Explanation
 "Cette action est ouverte à toutes les personnes ayant un titre de séjour (personnes réfugiées, bénéficiaires de la protection subsidiaire, mais aussi régularisées ou demandeuses d'asile)",Les ateliers sont ouverts aux bénéficiaires d'un protection internationale et aux demandeurs d'asile,Compression
-Une aide pour candidater sur des offres d'emploi,Une aide pour candidater à des offres d'emploi,SynSemantic
-L'Entraide vous présente les offres d'emploi et vous aide à candidater selon votre profil et votre projet professionnel.,Présentation d'offres d'emploi de Job4Mi Ouest adaptées à votre parcours,Complement
+Une aide pour candidater sur des offres d'emploi,Une aide pour candidater à des offres d'emploi,Substitution
+L'Entraide vous présente les offres d'emploi et vous aide à candidater selon votre profil et votre projet professionnel.,Présentation d'offres d'emploi de Job4Mi Ouest adaptées à votre parcours,Explanation
 L'Entraide vous présente les offres d'emploi et vous aide à candidater selon votre profil et votre projet professionnel.,Présentation d'offres d'emploi de Job4Mi Ouest adaptées à votre parcours,Omission
 Elle vous conseille également selon votre expérience. ,- Conseils personnalisés en fonction de votre expérience,Transposition
-Une aide pour trouver un travail en CDD ou CDI / ou une formation professionnelle selon votre profil,Une aide pour trouver un emploi durable ou une formation professionnelle,SynSemantic
+Une aide pour trouver un travail en CDD ou CDI / ou une formation professionnelle selon votre profil,Une aide pour trouver un emploi durable ou une formation professionnelle,Substitution
 "Job4Mi propose des CDD, des CDI et des formations dans des domaines très divers : maraîchage, santé, industrie, ménage, bâtiment, aide à la personne, restauration, périscolaire","Trouver un CDD, un CDI ou des formations dans différents domaines avec Job4Mi Ouest : maraïîchage, santé, industrie, ménage, bâtiment, aide à la personne, restauration, écoles...",Modulation
-"Job4Mi propose des CDD, des CDI et des formations dans des domaines très divers : maraîchage, santé, industrie, ménage, bâtiment, aide à la personne, restauration, périscolaire","Trouver un CDD, un CDI ou des formations dans différents domaines avec Job4Mi Ouest : maraîchage, santé, industrie, ménage, bâtiment, aide à la personne, restauration, écoles...",SynSemantic
+"Job4Mi propose des CDD, des CDI et des formations dans des domaines très divers : maraîchage, santé, industrie, ménage, bâtiment, aide à la personne, restauration, périscolaire","Trouver un CDD, un CDI ou des formations dans différents domaines avec Job4Mi Ouest : maraîchage, santé, industrie, ménage, bâtiment, aide à la personne, restauration, écoles...",Substitution
 Des conseils pour mieux comprendre le monde du travail,Comprendre le monde du travail,Transposition
 Job4Mi Ouest et l'Entraide vous proposent aussi des ateliers pour,Job4Mi Ouest et l'Entraide proposent aussi des ateliers pour :,Modulation
 - comprendre le monde du travail,- comprendre le monde du travail et son fonctionnement,Explanation
-- savoir se présenter et se comporter en entreprise.,- savoir se présenter et avoir la bonne attitude en entreprise.,SynSemantic
-- garder son poste dans une entreprise en France.,- garder son travail,SynSemantic
-Venez nous rencontrer ,Candidater à une offre ou s'inscrire à un atelier,Complement
-- Tel : +33 3 59 30 14 36,- par téléphone : +33 3 59 30 14 36,SynSemantic
-- Mail : renardstephane@example.net,- par mail : renardstephane@example.net,SynSemantic
-- Les Lundis et Jeudis entre 10h et 12h sans Marc Philippe,Les ateliers pour trouver des offres d'emploi et candidater sont sans rendez-vous et ont lieu les lundis et jeudis de 10h à 12h. Il faut venir avec son CV.,Complement
+- savoir se présenter et se comporter en entreprise.,- savoir se présenter et avoir la bonne attitude en entreprise.,Substitution
+- garder son poste dans une entreprise en France.,- garder son travail,Substitution
+Venez nous rencontrer ,Candidater à une offre ou s'inscrire à un atelier,Explanation
+- Tel : +33 3 59 30 14 36,- par téléphone : +33 3 59 30 14 36,Substitution
+- Mail : renardstephane@example.net,- par mail : renardstephane@example.net,Substitution
+- Les Lundis et Jeudis entre 10h et 12h sans Marc Philippe,Les ateliers pour trouver des offres d'emploi et candidater sont sans rendez-vous et ont lieu les lundis et jeudis de 10h à 12h. Il faut venir avec son CV.,Explanation
 - Les Lundis et Jeudis entre 10h et 12h sans Marc Philippe,Les ateliers pour trouver des offres d'emploi et candidater sont sans rendez-vous et ont lieu les lundis et jeudis de 10h à 12h.,Compression
-- Les Lundis et Jeudis entre 10h et 12h sans Marc Philippe,Les ateliers pour trouver des offres d'emploi et candidater sont sans rendez-vous et ont lieu les lundis et jeudis de 10h à 12h.,SynAcronyme
+- Les Lundis et Jeudis entre 10h et 12h sans Marc Philippe,Les ateliers pour trouver des offres d'emploi et candidater sont sans rendez-vous et ont lieu les lundis et jeudis de 10h à 12h.,Synonymy
 afin de permettre de traduire,pour traduire ,Compression
 "Vous pouvez également l'obtenir depuis l'application
-", vous pouvez la télécharger sur l'application,SynSemantic
+", vous pouvez la télécharger sur l'application,Substitution
 "Téléphonez au numéro indiqué, on vous proposera un rdv ",téléphonez pour prendre rendez-vous,Modulation
 avec pour objectif d'enregistrer vos coordonnées,elle va enregistrer votre nom et votre numéro,Modulation
 vos coordonnées, votre nom et votre numéro,Explanation
 faire le point sur vos besoins d’accompagnement,vous poser des questions pour comprendre vos besoins,Explanation
-faire le point sur vos besoins d’accompagnement,vous poser des questions pour comprendre vos besoins,SynSemantic
+faire le point sur vos besoins d’accompagnement,vous poser des questions pour comprendre vos besoins,Substitution
 Faciliter la vie quotidienne par l'apprentissage de la langue française et la découverte des points clés de la vie sociale et professionnelle en France,"- Savoir lire et écrire en français, 
 - Parler et comprendre des conversations de la vie quotidienne et au travail
 ",Syntactic
@@ -619,9 +595,8 @@ Faciliter la vie quotidienne par l'apprentissage de la langue française et la d
 ","- Accompagnement par un formateur spécialisé 
 - Exercices de vocabulaire pour communiquer facilement. ",Syntactic
 " dans différents lieux sur notre territoire, au plus proche du public","dans plusieurs villes à côté de chez vous
-",SynSemantic
+",Substitution
 Suivi socio-administratif : individualisé visant la levée des freins périphériques empêchant l’employabilité des apprenants.,"Conseils pour trouver une garde d'enfant, un moyen de transport, un logement... et commencer un travail plus facilement",Modulation
-Suivi socio-administratif : individualisé visant la levée des freins périphériques empêchant l’employabilité des apprenants.,"Conseils pour trouver une garde d'enfant, un moyen de transport, un logement... et commencer un travail plus facilement",SynSemantic
+Suivi socio-administratif : individualisé visant la levée des freins périphériques empêchant l’employabilité des apprenants.,"Conseils pour trouver une garde d'enfant, un moyen de transport, un logement... et commencer un travail plus facilement",Substitution
 Suivi socio-administratif : individualisé visant la levée des freins périphériques empêchant l’employabilité des apprenants.,"Conseils pour trouver une garde d'enfant, un moyen de transport, un logement... et commencer un travail plus facilement",Explanation
-Suivi socio-administratif : individualisé visant la levée des freins périphériques empêchant l’employabilité des apprenants.,"Conseils pour trouver une garde d'enfant, un moyen de transport, un logement... et commencer un travail plus facilement",Examples
 il vous sera demandé de passer une évaluation linguistique ,vous allez faire une évaluation en français,Compression
