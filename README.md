@@ -5,14 +5,20 @@ Travaux de Réfugiés.info dans le cadre du Hackathon [GenAI for Public Good](ht
 
 ### Python
 
-Ce repo utilise python 3.12.8 et `uv` pour l'installation et la gestion des environnements virtuels.  Installer `uv` en suivant les [instructions pour
+Ce répo utilise python 3.12.8 et `uv` pour l'installation et la gestion des environnements virtuels.  Installer `uv` en suivant les [instructions pour
 votre système d'exploitation](https://docs.astral.sh/uv/getting-started/installation/).
 
-Vous pouvez ensuite créer l'environment virtuel et installer les dépendances avec : `uv sync`
+Ensuite créer l'environment virtuel et installer les dépendances avec : `uv sync`
 
 ### Node
 
 Ce repo utilise `volta` pour l'installation des dépendances.  Installer `volta` en suivant les [instructions pour
 votre système d'exploitation](https://docs.volta.sh/guide/getting-started).
 
-Vous pouvez ensuite installer les dépendances avec : `volta install`
+Ensuite installer les dépendances avec :
+
+```
+volta install node@22.13.1
+volta install pnpm@10.2.0
+pnpm install
+```
