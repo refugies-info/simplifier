@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean:branches": "npx git-removed-branches --prune --force",
+    "clean:branches": "pnpm dlx git-removed-branches --prune --force",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
