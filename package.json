@@ -13,6 +13,9 @@
   "devDependencies": {
     "turbo": "^2.4.0"
   },
+  "workspaces": [
+    "apps/*"
+  ],
   "packageManager": "pnpm@10.2.0",
   "volta": {
     "node": "22.13.1"
