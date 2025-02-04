@@ -9,8 +9,11 @@ authors = [
     { name = "Alexandre Bigot", email = "alexandre-hadrien.bigot@interieur.gouv.fr" },
     { name = "Nouran Khallaf", email = "n.khallaf@leeds.ac.uk" },
 ]
-requires-python = ">=3.12.8"
-dependencies = []
+requires-python = ">=3.12"
+dependencies = [
+    "pip>=25.0",
+    "pandas>=2.2.3",
+]
 
 [tool.uv.workspace]
 members = ["packages/*", "apps/*"]
