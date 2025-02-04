@@ -27,6 +27,6 @@ pnpm install
 
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
-## Useful Scripts
+## Scripts utiles
 
 - `pnpm clean:branches` : Nettoyer les branches supprimées de github
