@@ -22,3 +22,7 @@ volta install node@22.13.1
 volta install pnpm@10.2.0
 pnpm install
 ```
+
+## Recommendations
+
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
