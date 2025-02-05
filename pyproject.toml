@@ -22,8 +22,16 @@ dependencies = [
     "nbformat>=5.10.4",
     "scikit-learn>=1.6.1",
     "transformers[torch]>=4.48.2",
+    "streamlit>=1.42.0",
 ]
 
 [tool.uv.workspace]
 members = ["packages/*", "apps/*"]
 exclude = []
+
+
+[tool.black]
+line-length = 150
+
+[tool.ruff]
+line-length = 150
