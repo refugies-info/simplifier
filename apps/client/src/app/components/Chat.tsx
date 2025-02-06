@@ -2,10 +2,13 @@ import React from "react";
 import { useState, useRef } from "react";
 import { Button } from "@codegouvfr/react-dsfr/Button";
 import Markdown from "react-markdown";
-
+import { Quote } from "@codegouvfr/react-dsfr/Quote";
 export default function Chat() {
   const [generation, setGeneration] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [slidePanelState, setSlidePanelState] = useState<"initial" | "slided">(
+    "initial"
+  );
   const [content, setContent] = useState<
     string | TrustedHTML
   >(`<p>Afin d’optimiser l’implémentation des obligations déclaratives inhérentes aux droits successoraux, il convient de diligenter en amont une évaluation patrimoniale exhaustive, prenant en compte l’assiette fiscale consolidée du de cujus. Cette démarche requiert l’articulation conjointe de l’acte de notoriété et de l’inventaire actif/passif, à renseigner selon les prescriptions de l'article 784 du CGI.</p>
@@ -15,7 +18,7 @@ export default function Chat() {
 
   const generatedTextRef = useRef<HTMLDivElement | null>(null);
 
-  const handleClick = async () => {
+  const handleSimplify = async () => {
     setIsLoading(true);
 
     await fetch("/api/completion/albert", {
@@ -31,11 +34,17 @@ export default function Chat() {
     });
   };
 
+  const handleSlidePanel = () => {
+    const switchState = slidePanelState === "initial" ? "slided" : "initial";
+
+    setSlidePanelState(switchState);
+  };
+
   return (
-    <div className="relative">
+    <div className="relative max-w-full overflow-x-clip">
       <Button
-        onClick={handleClick}
-        className="hidden lg:flex sticky left-1/2 top-1/2 -translate-x-1/2"
+        onClick={handleSimplify}
+        className="hidden z-20 lg:flex sticky left-1/2 top-1/2 -translate-x-1/2 border-1 border-grey975"
         iconId="ri-arrow-right-line"
         iconPosition="right"
       >
@@ -50,7 +59,7 @@ export default function Chat() {
         ></div>
         <Button
           onClick={() => {
-            handleClick();
+            handleSimplify();
             if (generatedTextRef.current) {
               generatedTextRef.current.scrollIntoView({
                 behavior: "smooth",
@@ -60,18 +69,105 @@ export default function Chat() {
           }}
           iconId="ri-arrow-right-line"
           iconPosition="right"
-          className="lg:hidden m-auto -translate-y-1/2 -mb-10"
+          className="lg:hidden z-20 m-auto -translate-y-1/2 -mb-10"
         >
           Simplifier
         </Button>
         <div
           id="generatedTextContainer"
           ref={generatedTextRef}
-          className="bg-white p-10 lg:p-20 h-full shadow-[0px_4px_12px_0px_rgba(0,0,18,0.16)]"
+          className="relative z-10 "
         >
-          <Markdown className="prose">
-            {isLoading ? "Chargement" : generation}
-          </Markdown>
+          <nav className="absolute w-fit z-20 top-4 right-4">
+            <Button
+              iconId="fr-icon-questionnaire-fill"
+              onClick={handleSlidePanel}
+              priority="tertiary no outline"
+              title="Label button"
+              className="border border-grey975"
+            />
+          </nav>
+          <div
+            className="bg-[#21213f] p-10 lg:p-20 absolute z-0 inset-0 [&_p]:text-white flex flex-col gap-4 overflow-y-auto"
+            data-fr-theme="dark"
+          >
+            <Quote
+              source={
+                <>
+                  <li>
+                    <cite>Ouvrage</cite>
+                  </li>
+                  <li>Détail 1</li>
+                  <li>Détail 2</li>
+                  <li>Détail 3</li>
+                  <li>
+                    <a href="#">Détail 4</a>
+                  </li>
+                </>
+              }
+              text={<p className="text-white">Lorem [...] elit ut.</p>}
+            />
+            <Quote
+              source={
+                <>
+                  <li>
+                    <cite>Ouvrage</cite>
+                  </li>
+                  <li>Détail 1</li>
+                  <li>Détail 2</li>
+                  <li>Détail 3</li>
+                  <li>
+                    <a href="#">Détail 4</a>
+                  </li>
+                </>
+              }
+              text={<p className="text-white">Lorem [...] elit ut.</p>}
+            />
+            <Quote
+              source={
+                <>
+                  <li>
+                    <cite>Ouvrage</cite>
+                  </li>
+                  <li>Détail 1</li>
+                  <li>Détail 2</li>
+                  <li>Détail 3</li>
+                  <li>
+                    <a href="#">Détail 4</a>
+                  </li>
+                </>
+              }
+              text={<p className="text-white">Lorem [...] elit ut.</p>}
+            />
+            <Quote
+              source={
+                <>
+                  <li>
+                    <cite>Ouvrage</cite>
+                  </li>
+                  <li>Détail 1</li>
+                  <li>Détail 2</li>
+                  <li>Détail 3</li>
+                  <li>
+                    <a href="#">Détail 4</a>
+                  </li>
+                </>
+              }
+              text={<p className="text-white">Lorem [...] elit ut.</p>}
+            />
+          </div>
+
+          <div
+            className={`bg-white z-10 p-10 lg:p-20 h-full shadow-[0px_4px_12px_0px_rgba(0,0,18,0.16)] transition-transform ${
+              slidePanelState === "slided"
+                ? "translate-x-[92%]"
+                : "translate-x-0"
+            }`}
+          >
+            <Markdown className="prose">
+              {isLoading ? "Chargement" : generation}
+            </Markdown>
+          </div>
         </div>
       </div>
     </div>
