@@ -1,64 +1,32 @@
-# Hackathon GenAI for Public Good 🤖  
+# GenAI for Public Good
+Travaux de Réfugiés.info dans le cadre du Hackathon [GenAI for Public Good](https://alliance.numerique.gouv.fr/hackathon/ai-action-summit/) du 5-6 février 2025
 
-📙 **Retrouvez le Guide du participant en cliquant** [ici](https://alliance.numerique.gouv.fr/hackathon/participant-guide-fr/)  
+## Installation
 
-## 👩‍💻 Comment participer ?  
+### Python
 
-Pour participer au Hackathon, vous devez créer un dépôt public (vous pouvez par exemple partir d'un fork de ce dépôt).  
+Ce répo utilise python 3.12.8 et `uv` pour l'installation et la gestion des environnements virtuels.  Installer `uv` en suivant les [instructions pour
+votre système d'exploitation](https://docs.astral.sh/uv/getting-started/installation/).
 
-Votre dépôt servira pour l'évaluation de votre projet à l'issue du Hackathon !  
+Ensuite créer l'environment virtuel et installer les dépendances avec : `uv sync`
 
-Bon courage 🔥 !  
+### Node
 
----
+Ce repo utilise `volta` pour l'installation des dépendances.  Installer `volta` en suivant les [instructions pour
+votre système d'exploitation](https://docs.volta.sh/guide/getting-started).
 
-## 🚀 Rendu attendu  
+Ensuite installer les dépendances avec :
 
-### 🎯 Sélectionnez votre Track  
+```
+volta install node@22.13.1
+volta install pnpm@10.2.0
+pnpm install
+```
 
-Votre projet doit s'inscrire dans l'un des **deux tracks** suivants :  
+## Recommendations
 
-#### 🧠 Track 1 : Algorithmes à Forte Valeur Ajoutée  
-Développez des algorithmes avancés pour relever des défis technologiques fondamentaux.  
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
-Exemples :  
-- 🎙 **Transcription vocale** : Amélioration du Speech-to-Text pour les langues sous-représentées.  
-- 🛰 **Analyse géospatiale** : IA pour la planification urbaine et la gestion des crises.  
-- 📄 **Numérisation de documents** : Amélioration de l'OCR pour les administrations.
+## Scripts utiles
 
-### 📝 Informations à renseigner pour l’évaluation  
-
-Merci de compléter ce README avec les éléments suivants : 
-
-##### 🏆 Critères d'évaluation  
-| Critère            | Description | Poids (%) |
-|--------------------|-------------|-----------|
-| 🎯 **Précision**  | Le modèle produit-il des résultats plus fiables et pertinents que les solutions actuelles ? | 25 |
-| ⚡ **Efficacité**  | L’utilisation des ressources informatiques est-elle optimisée sans compromettre la qualité ? | 25 |
-| 💧 **Durabilité**  | Le modèle est-il respectueux de l’environnement et économe en ressources ? | 25 |
-| 📊 **Utilisation des données** | Les données sont-elles intégrées de manière éthique et pertinente ? | 25 |
-
---- 
-
-#### 🛠 Track 2 : Cas d'Usage à Fort Impact avec des APIs  
-Exploitez des APIs comme **Albert** pour concevoir des outils concrets pour l'administration publique.  
-
-Exemples :  
-- 📝 **Automatisation administrative** : Génération automatique de documents et rapports.  
-- 🔍 **Analyse documentaire** : Recherche et résumé intelligent de textes.  
-- 🎯 **Prototypes sur mesure** : Solutions adaptées aux besoins spécifiques identifiés par les équipes.
-
-### 📝 Informations à renseigner pour l’évaluation  
-
-Merci de compléter ce README avec les éléments suivants :  
-
-##### 🏆 Critères d'évaluation  
-| Critère            | Description | Poids (%) |
-|--------------------|-------------|-----------|
-| 🎯 **Pertinence**  | La solution répond-elle à un défi clair du service public ? | 25 |
-| 📈 **Impact**      | Les résultats attendus sont-ils significatifs et mesurables ? | 25 |
-| 🔧 **Faisabilité** | L’implémentation du MVP est-elle réaliste ? | 25 |
-| 🌍 **Scalabilité** | La solution est-elle adaptable et conçue comme un bien commun numérique ? | 25 |
-
----
-
+- `pnpm clean:branches` : Nettoyer les branches supprimées de github
