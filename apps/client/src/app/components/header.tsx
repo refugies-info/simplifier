@@ -16,11 +16,11 @@ function HeaderSi() {
       }
       homeLinkProps={{
         href: "/",
-        title: "Accueil - Simplifier.info",
+        title: "Accueil - Simplifier.gouv.fr",
       }}
       id="fr-header-with-horizontal-operator-logo"
       operatorLogo={{
-        alt: "Logo Simplifier.info",
+        alt: "Logo Simplifier.gouv.fr",
         imgUrl: "/images/simplifier-info-logo.svg",
         orientation: "horizontal",
       }}
@@ -49,7 +49,7 @@ function HeaderSi() {
             title="Accueil - Nom de l’entité (ministère, secrétariat d'état, gouvernement)"
           >
             <span className="fr-header__service-title">
-              Simplifier.info{" "}
+              Simplifier.gouv.fr{" "}
               <Badge as="span" noIcon severity="success">
                 Beta
               </Badge>
@@ -59,7 +59,7 @@ function HeaderSi() {
           Simplifier le langage administratif pour ses usagers
         </>
       }
-      // serviceTitle="Simplifier.info"
+      // serviceTitle="Simplifier.gouv.fr"
       serviceTitle={
         <>
           Nom du site / service{" "}

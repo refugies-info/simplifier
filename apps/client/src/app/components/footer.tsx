@@ -16,7 +16,7 @@ function FooterSi() {
       }
       homeLinkProps={{
         href: "/",
-        title: "Accueil - Simplifier.info",
+        title: "Accueil - Simplifier.gouv.fr",
       }}
       accessibility="fully compliant"
       contentDescription="

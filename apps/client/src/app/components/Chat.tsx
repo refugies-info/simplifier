@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Button } from "@codegouvfr/react-dsfr/Button";
 import Markdown from "react-markdown";
 
@@ -13,38 +13,62 @@ export default function Chat() {
 <p>Toute omission ou inexactitude dans la déclaration est susceptible d’entraîner une rectification de la part de l’administration fiscale, assortie des majorations prévues à l’article 1727 du CGI. Afin d’éviter tout contentieux fiscal ou redressement, une consultation préalable d’un officier ministériel ou d’un expert-comptable assermenté est fortement préconisée.</p>
 <p>En cas de contentieux post-déclaratif, le redevable pourra formuler une réclamation auprès du service des impôts des entreprises (SIE) compétent dans un délai de six mois suivant la notification de l’avis de mise en recouvrement, sous réserve d’apporter les éléments justificatifs conformes aux exigences de l’instruction fiscale en vigueur.</p>`);
 
+  const generatedTextRef = useRef<HTMLDivElement | null>(null);
+
+  const handleClick = async () => {
+    setIsLoading(true);
+
+    await fetch("/api/completion/albert", {
+      method: "POST",
+      body: JSON.stringify({
+        prompt: `${content}`,
+      }),
+    }).then((response) => {
+      response.json().then((json) => {
+        setGeneration(json.text);
+        setIsLoading(false);
+      });
+    });
+  };
+
   return (
     <div className="relative">
       <Button
-        onClick={async () => {
-          setIsLoading(true);
-
-          await fetch("/api/completion/albert", {
-            method: "POST",
-            body: JSON.stringify({
-              prompt: `${content}`,
-            }),
-          }).then((response) => {
-            response.json().then((json) => {
-              setGeneration(json.text);
-              setIsLoading(false);
-            });
-          });
-        }}
-        className="sticky left-1/2 top-1/2 -translate-x-1/2"
+        onClick={handleClick}
+        className="hidden lg:flex sticky left-1/2 top-1/2 -translate-x-1/2"
         iconId="ri-arrow-right-line"
         iconPosition="right"
       >
         Simplifier
       </Button>
-      <div className="grid grid-cols-2 min-h-md my-10">
+      <div className="grid grid-flow-row lg:grid-flow-col lg:grid-cols-2 min-h-md my-10">
         <div
-          className="prose min-w-full bg-grey975 h-full p-20"
+          className="prose min-w-full bg-grey975 h-full p-10 lg:p-20"
           contentEditable
           onBlur={(t) => setContent(t.currentTarget.innerHTML)}
           dangerouslySetInnerHTML={{ __html: content }}
         ></div>
-        <div className="bg-white p-20 h-full shadow-[0px_4px_12px_0px_rgba(0,0,18,0.16)]">
+        <Button
+          onClick={() => {
+            handleClick();
+            if (generatedTextRef.current) {
+              generatedTextRef.current.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }
+          }}
+          iconId="ri-arrow-right-line"
+          iconPosition="right"
+          className="lg:hidden m-auto -translate-y-1/2 -mb-10"
+        >
+          Simplifier
+        </Button>
+        <div
+          id="generatedTextContainer"
+          ref={generatedTextRef}
+          className="bg-white p-10 lg:p-20 h-full shadow-[0px_4px_12px_0px_rgba(0,0,18,0.16)]"
+        >
           <Markdown className="prose">
             {isLoading ? "Chargement" : generation}
           </Markdown>
