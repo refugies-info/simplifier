@@ -13,8 +13,19 @@ export async function POST(req: Request) {
   const { prompt }: { prompt: string } = await req.json();
 
   const { text } = await generateText({
-    model: albert("AgentPublic/llama3-instruct-guillaumetell"),
-    system: "You are a helpful assistant.",
+    model: albert("meta-llama/Llama-3.1-8B-Instruct"),
+    system: `
+    Format :
+    --------
+    Html avec titres et liens
+
+    Instructions :
+    --------------
+    Tu es rédacteur spécialiste des démarches administratives.
+    Pour chaque prompt tu traduira le texte en lagage clair en ajoutant des titres et des sous-titre 
+
+
+`,
     prompt,
   });
 
