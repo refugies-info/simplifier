@@ -20,14 +20,15 @@ dependencies = [
     "plotly>=6.0.0",
     "nltk>=3.9.1",
     "nbformat>=5.10.4",
-    "scikit-learn>=1.6.1",
-    "transformers[torch]>=4.48.2",
-    "streamlit>=1.42.0",
+    "fastapi[standard]>=0.115.8",
+    "langchain-community>=0.3.16",
+    "langchain>=0.3.17",
+    "langchain-openai>=0.3.3",
+    #"scikit-learn>=1.6.1",
+    #"transformers[torch]>=4.48.2",
+    #"streamlit>=1.42.0",
 ]
 
-[tool.uv.workspace]
-members = ["packages/*", "apps/*"]
-exclude = ["apps/client"]
 
 
 [tool.black]
