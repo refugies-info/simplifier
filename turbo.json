@@ -1,6 +1,10 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "tasks": {
+    "//#update-icons": {
+      "cache": false,
+      "outputs": ["node_modules/@codegouvfr/react-dsfr/dist/utility/icons/icons.css"]
+    },
     "build": {
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"]
@@ -11,6 +15,12 @@
     "dev": {
       "persistent": true,
       "cache": false
+    },
+    "client#dev": {
+      "dependsOn": ["//#update-icons"],
+      "persistent": true,
+      "cache": false,
+      "inputs": ["$TURBO_DEFAULT$", ".env"]
     }
   }
 }
