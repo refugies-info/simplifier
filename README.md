@@ -1,8 +1,7 @@
 # GenAI for Public Good
 
-<div align="center" style="display: flex; justify-content: center; gap: 40px;">
+<div align="center">
   <img src="images/logo_hackathon.svg" alt="GenAI for Public Good Logo" width="200">
-  <img src="images/logo_ri.svg" alt="Réfugiés.info Logo" width="200">
 </div>
 
 ## Description
@@ -24,6 +23,17 @@ Il est organisé de la manière suivante:
 
 C'est un monorepo hybride (node + python). Les applications node utilisent `pnpm` et `turbo`, les applications python utilisent `uv`.
 
+## Participants
+
+- Luis Arias - EIG et CTO de Réfugies.info
+- Nour Allazkani - Chef de projet de Réfugies.info
+- Alice Mugnier - Responsable éditoriale de Réfugiés.info
+- Claudia Meleghi - Rédactrice pôle éditoriale
+- Marianne Georges - Product manager de Réfugiés.info
+- Jérémie Gisserot - Développeur Front-End chez Réfugiés.info
+- Alexandre Bigot - Data scientist à la SDID / DTNUM / MI
+- Nouran Khallaf - NLP Post-doctoral research fellow à l'université de Leeds
+- 
 ## Applications
 
 ### Simplifier.info
@@ -33,6 +43,8 @@ C'est un monorepo hybride (node + python). Les applications node utilisent `pnpm
 </div>
 
 L'application web de [Simplifier.info](https://simplifier.info) est une application [NextJS 14](https://nextjs.org/) qui utilise le [AI SDK de vercel](https://sdk.vercel.ai/) pour fournir une interface utilisateur simple et intuitive pour la simplification de textes administratifs. L'application utilise des prompts optimisés entrainés sur une dataset de textes parallèles élaborée et annotée par le pôle éditorial de [Réfugiés.info](https://refugies.info). La dataset a été anonymisée pour obfusquer toute [donnée personnelle (PII)](https://fr.wikipedia.org/wiki/Donn%C3%A9es_personnelles)
+
+L'application utilise [l'IA d'état Albert API](https://github.com/etalab-ia/albert-api) et nécessite d'avoir une clé API.
 
 ## Installation
 
@@ -55,6 +67,11 @@ volta install node@22.13.1
 volta install pnpm@10.2.0
 pnpm install
 ```
+## Variables d'environnement
+
+Pour pouvoir faire tourner l'application Simplifier.info localement, il faut créer un fichier `.env.local` dans le répertoire `apps/client` dans lequel il faut ajouter les variables suivantes :
+
+- `ALBERT_API_KEY` : Clé API de l'IA d'état Albert API
 
 ## Développement
 
@@ -63,6 +80,33 @@ Pour faire tourner l'application Simplifier.info localement, il faut exécuter l
 ```
 turbo dev
 ```
+
+## Data
+
+La dataset utilisée pour le fine-tuning et le prompt optimisation est disponible dans le répertoire `data/` et a le format suivant:
+
+| Version initiale | Version retraitée | Catégorie |
+|-----------------|-------------------|------------|
+| Dispositif d'apprentissage du français : permet de gagner en autonomie au quotidien grâce à des ateliers sociolinguistiques et cours de français langue professionnelle | Des ateliers 2 fois par semaine pour progresser en français, mieux communiquer au quotidien et dans le milieu professionnel. Bon à savoir Une adhésion de 15 € / an à l'association est demandée lors de l'inscription. | Explanation |
+| Dispositif d'apprentissage du français : permet de gagner en autonomie au quotidien grâce à des ateliers sociolinguistiques et cours de français langue professionnelle | Des ateliers pour progresser en français, mieux communiquer au quotidien et dans le milieu professionnel. | Substitution |
+| Dispositif d'apprentissage du français : permet de gagner en autonomie au quotidien grâce à des ateliers sociolinguistiques et cours de français langue professionnelle | Des ateliers pour progresser en français, mieux communiquer au quotidien et dans le milieu professionnel. | Compression |
+| Dispositif d'apprentissage du français : permet de gagner en autonomie au quotidien grâce à des ateliers sociolinguistiques et cours de français langue professionnelle | Des ateliers pour progresser en français, mieux communiquer au quotidien et dans le milieu professionnel. | Syntactic |
+| Progresser en français | Progresser en français | Transcription |
+
+# Taxonomie
+
+La taxonomie suivante permet d'annoter les phrases selon les transformations qui ont été effectuées par l'équipe éditoriale Réfugies.info.  Notre taxonomie est inspirée par celle figurant dans les travaux de Nouran Khallaf et notamment son article ["Reading between the lines: A dataset and a study on why some texts are tougher than others"](https://arxiv.org/abs/2501.01796v1).
+
+| Catégorie | Description |
+|-----------|-------------|
+| Transcription | On a conservé la phrase telle qu'elle |
+| Synonymy | La phrase a le même sens, mais on en a changé la grammaire simple et le vocabulaire |
+| Explanation | Explication de mots culturels, du contexte français, de concepts etc = explanation<br>Donner des exemples = examples<br>Ajout d'une info exogène = complement |
+| Omission | On enlève des éléments (mots, phrases...) |
+| Compression | Simplification de construction grammaticale (phrases passives en actives, changement de temps) |
+| Modulation | Changement de perspectives (passage de la 3e personne à la 2e personne "vous") |
+| Transposition | Changer une catégorie grammaticale de la phrase sans changer le message |
+| Syntactic | Passage au bullet point par exemple, simplification syntaxique (une phrase avec "." qui devient plus courte, les / qui deviennent "et" ou des virgules) |
 
 ## Recommendations
 
