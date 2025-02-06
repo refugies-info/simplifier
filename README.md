@@ -1,5 +1,27 @@
 # GenAI for Public Good
-Travaux de Réfugiés.info dans le cadre du Hackathon [GenAI for Public Good](https://alliance.numerique.gouv.fr/hackathon/ai-action-summit/) du 5-6 février 2025
+
+![GenAI for Public Good Logo](images/logo_hackathon.svg)
+
+## Description
+
+Ce repo contient les sources de la soumission de [Réfugiés.info](https://refugies.info/fr) dans le cadre du Hackathon [GenAI for Public Good](https://alliance.numerique.gouv.fr/hackathon/ai-action-summit/) du 5-6 février 2025.
+
+Le repo est un monorepo hybride (node + python) organisé de la manière suivante:
+
+| Répertoire        | Description                                                    |
+|---------------|----------------------------------------------------------------|
+| `apps`        | Les applications                     |
+| `data`        | Datasets et données traitées                                    |
+| `docs`        | Documentation et documentation technique                       |
+| `images`      | Images et ressources graphiques utilisées dans le projet         |
+| `models`      | Modèles de langue et scripts liés aux modèles   |
+| `notebooks`   |  Notebooks Jupyter pour l'analyse des données et le développement des modèles      |
+| `packages`    | Packages et bibliothèques réutilisables                         |
+| `scripts`     | Scripts utilitaires pour le traitement des données et l'automatisation
+
+
+
+
 
 ## Installation
 
