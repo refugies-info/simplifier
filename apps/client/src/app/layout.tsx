@@ -11,7 +11,7 @@ import { FooterSi } from "./components/footer";
 
 export const metadata: Metadata = {
   title:
-    "Simplifier.info - Simplifier le langage administratif pour ses usagers",
+    "Simplifier.gouv.fr - Simplifier le langage administratif pour ses usagers",
   description: "",
 };
 
