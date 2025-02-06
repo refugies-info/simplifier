@@ -40,7 +40,7 @@ C'est un monorepo hybride (node + python). Les applications node utilisent `pnpm
 ### Simplifier.gouv.fr
 
 <div align="center">
-  <img src="images/screenshot-simplifier-info.png" alt="Simplifier.gouv.fr Screenshot" width="100%">
+  <img src="images/screenshot-simplifier-gouv-fr.png" alt="Simplifier.gouv.fr Screenshot" width="100%">
 </div>
 
 L'application web de [Simplifier.gouv.fr](https://simplifier.gouv.fr) est une application [NextJS 14](https://nextjs.org/) qui utilise le [AI SDK de vercel](https://sdk.vercel.ai/) pour fournir une interface utilisateur simple et intuitive pour la simplification de textes administratifs. L'application utilise des prompts optimisés entrainés sur une dataset de textes parallèles élaborée et annotée par le pôle éditorial de [Réfugiés.info](https://refugies.info). La dataset a été anonymisée pour obfusquer toute [donnée personnelle (PII)](https://fr.wikipedia.org/wiki/Donn%C3%A9es_personnelles)
