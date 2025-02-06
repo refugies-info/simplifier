@@ -30,10 +30,10 @@ C'est un monorepo hybride (node + python). Les applications node utilisent `pnpm
 - Alice Mugnier - Responsable éditoriale de Réfugiés.info
 - Claudia Meleghi - Rédactrice pôle éditoriale
 - Marianne Georges - Product manager de Réfugiés.info
+- Margot Gillette - Designer chez Réfugiés.info
 - Jérémie Gisserot - Développeur Front-End chez Réfugiés.info
 - Alexandre Bigot - Data scientist à la SDID / DTNUM / MI
 - Nouran Khallaf - NLP Post-doctoral research fellow à l'université de Leeds
--
 
 ## Applications
 
