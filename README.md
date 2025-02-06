@@ -25,6 +25,12 @@ Le repo est organisé de la manière suivante:
 
 Ce repo est un monorepo hybride (node + python).  Les applications node utilisent `pnpm` et `turbo`, les applications python utilisent `uv`.
 
+## Applications
+
+### Simplifier.info
+
+L'application web de [Simplifier.info](https://simplifier.info) est une application [NextJS 14](https://nextjs.org/) qui utilise le [AI SDK de vercel](https://sdk.vercel.ai/) pour fournir une interface utilisateur simple et intuitive pour la simplification de textes administratifs.  L'application utilise des prompts optimisés entrainés sur une dataset de textes parallèles élaborée et annotée par le pôle éditorial de [Réfugiés.info](https://refugies.info).  La dataset a été anonymisée pour obfusquer toute [donnée personnelle (PII)](https://fr.wikipedia.org/wiki/Donn%C3%A9es_personnelles)
+
 ## Installation
 
 ### Python
