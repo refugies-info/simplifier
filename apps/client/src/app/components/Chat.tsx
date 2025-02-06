@@ -21,7 +21,7 @@ export default function Chat() {
   const handleSimplify = async () => {
     setIsLoading(true);
 
-    await fetch("/api/completion/albert", {
+    await fetch("/api/completion/chatgpt", {
       method: "POST",
       body: JSON.stringify({
         prompt: `${content}`,
@@ -50,7 +50,7 @@ export default function Chat() {
       >
         Simplifier
       </Button>
-      <div className="grid grid-flow-row lg:grid-flow-col lg:grid-cols-2 min-h-md my-10">
+      <div className="grid grid-flow-row lg:grid-flow-col lg:grid-cols-2 min-h-md mb-10">
         <div
           className="prose min-w-full bg-grey975 h-full p-10 lg:p-20"
           contentEditable
@@ -88,7 +88,7 @@ export default function Chat() {
             />
           </nav>
           <div
-            className="bg-[#21213f] p-10 lg:p-20 absolute z-0 inset-0 [&_p]:text-white flex flex-col gap-4 overflow-y-auto"
+            className="bg-[#21213f] p-10 lg:p-20 absolute z-0 inset-0 [&_span]:text-white [&_p]:text-white flex flex-col gap-4 overflow-y-auto"
             data-fr-theme="dark"
           >
             <Quote
@@ -105,7 +105,7 @@ export default function Chat() {
                   </li>
                 </>
               }
-              text={<p className="text-white">Lorem [...] elit ut.</p>}
+              text={<span className="text-white">Lorem [...] elit ut.</span>}
             />
             <Quote
               source={
@@ -121,7 +121,7 @@ export default function Chat() {
                   </li>
                 </>
               }
-              text={<p className="text-white">Lorem [...] elit ut.</p>}
+              text={<span className="text-white">Lorem [...] elit ut.</span>}
             />
             <Quote
               source={
@@ -137,7 +137,7 @@ export default function Chat() {
                   </li>
                 </>
               }
-              text={<p className="text-white">Lorem [...] elit ut.</p>}
+              text={<span className="text-white">Lorem [...] elit ut.</span>}
             />
             <Quote
               source={
@@ -164,6 +164,8 @@ export default function Chat() {
                 : "translate-x-0"
             }`}
           >
+            <span>🤖Je réfléchis</span>
+
             <Markdown className="prose">
               {isLoading ? "Chargement" : generation}
             </Markdown>
