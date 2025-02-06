@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean:branches": "pnpm dlx git-removed-branches --prune --force",
+    "dev": "turbo dev",
     "test": "echo \"Error: no test specified\" && exit 1",
     "update-icons": "react-dsfr update-icons --silent --projectDir ./apps/client"
   },
