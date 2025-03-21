@@ -1,0 +1,11 @@
+{
+  "name": "fastapi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0",
+    "build": "echo \"Error: no build specified\" && exit 1",
+    "start": "echo \"Error: no start specified\" && exit 1",
+    "lint": "echo \"Error: no lint specified\" && exit 1"
+  }
+}
