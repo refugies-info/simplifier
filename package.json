@@ -17,9 +17,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@codegouvfr/react-dsfr": "^1.17.0",
+    "@codegouvfr/react-dsfr": "^1.20.4",
     "rimraf": "^6.0.1",
-    "turbo": "^2.4.0"
+    "turbo": "^2.4.4"
   },
   "workspaces": [
     "apps/*"

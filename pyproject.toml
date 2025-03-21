@@ -1,5 +1,5 @@
 [project]
-name = "genai4good"
+name = "simplifier"
 version = "0.1.0"
 description = "Top level package for GenAI for Public Good."
 readme = "README.md"
