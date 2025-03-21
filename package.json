@@ -6,9 +6,10 @@
   "scripts": {
     "clean:branches": "pnpm dlx git-removed-branches --prune --force",
     "clean:caches": "rimraf -g \"**/node_modules/.cache\" \"**/.turbo\" \"**/.next\" \"**/dist\" \"**/.cache\" \"**/.expo\" \"**/storybook-static\" \"**/build\" \"**/__pycache__\"",
-    "clean:modules": "rimraf -g \"**/node_modules\"",
+    "clean:modules": "rimraf -g \"**/node_modules\" \"**/.venv\"",
     "dev": "turbo run dev",
     "build": "turbo run build",
+    "postinstall": "uv sync",
     "start": "turbo run start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "update-icons": "react-dsfr update-icons --silent --projectDir ./apps/front"
