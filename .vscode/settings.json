@@ -3,8 +3,8 @@
   "conventionalCommits.scopes": [
     "notebooks",
     "data",
+    "front",
     "models",
-    "client",
     "server"
   ]
 }

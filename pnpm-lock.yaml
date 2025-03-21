@@ -18,7 +18,9 @@ importers:
         specifier: ^2.4.0
         version: 2.4.0
 
-  apps/client:
+  apps/fastapi: {}
+
+  apps/front:
     dependencies:
       '@ai-sdk/openai':
         specifier: ^1.1.9
@@ -93,8 +95,6 @@ importers:
       typescript:
         specifier: ^5
         version: 5.7.3
-
-  apps/fastapi: {}
 
 packages:
 
