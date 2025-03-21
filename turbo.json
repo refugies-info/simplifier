@@ -17,7 +17,7 @@
       "persistent": true,
       "cache": false
     },
-    "client#dev": {
+    "front#dev": {
       "dependsOn": ["//#update-icons"],
       "persistent": true,
       "cache": false,
