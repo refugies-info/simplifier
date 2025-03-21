@@ -16,11 +16,11 @@ export const Login = () => {
       </div>
       <div className="col-span-7">
         <div className="m-10 text-left gap-6 flex flex-col">
-          <h2 className="text-[2rem] leading-10">
+          <h2 className="text-[2rem] leading-10 font-bold">
             Bienvenue sur Simplifier.gouv.fr !
           </h2>
           <div>Esse eu velit sit ex ea.</div>
-          <ProConnectButton url="#" />
+          <ProConnectButton url="/api/auth" />
         </div>
       </div>
     </div>
