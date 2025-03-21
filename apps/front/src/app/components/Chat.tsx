@@ -2,7 +2,8 @@ import React from "react";
 import { useState, useRef } from "react";
 import { Button } from "@codegouvfr/react-dsfr/Button";
 import Markdown from "react-markdown";
-export default function Chat() {
+
+export const Chat = () => {
   const [generation, setGeneration] = useState("... Mon texte simplifié");
   const [isLoading, setIsLoading] = useState(false);
   const [slidePanelState, setSlidePanelState] = useState<"initial" | "slided">(
@@ -161,4 +162,4 @@ J’ai intégré une section **“Pour aller plus loin”** avec des liens vers 
       </div>
     </div>
   );
-}
+};

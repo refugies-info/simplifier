@@ -4,7 +4,7 @@ import { Badge } from "@codegouvfr/react-dsfr/Badge";
 import { Header } from "@codegouvfr/react-dsfr/Header";
 import Link from "next/link";
 
-function HeaderSi() {
+export const AppHeader = () => {
   return (
     <>
       <Header
@@ -73,8 +73,4 @@ function HeaderSi() {
       />
     </>
   );
-}
-
-HeaderSi.propTypes = {};
-
-export { HeaderSi };
+};

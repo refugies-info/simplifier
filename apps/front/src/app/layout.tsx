@@ -6,8 +6,8 @@ import { defaultColorScheme } from "./defaultColorScheme";
 import Link from "next/link";
 import type { Metadata } from "next";
 import "./globals.css";
-import { HeaderSi } from "./components/Header";
-import { FooterSi } from "./components/Footer";
+import { AppHeader } from "./components/AppHeader";
+import { AppFooter } from "./components/AppFooter";
 
 export const metadata: Metadata = {
   title:
@@ -29,9 +29,9 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen border">
         <DsfrProvider lang={lang}>
-          <HeaderSi />
+          <AppHeader />
           <main className="min-h-screen">{children}</main>
-          <FooterSi />
+          <AppFooter />
         </DsfrProvider>
       </body>
     </html>
