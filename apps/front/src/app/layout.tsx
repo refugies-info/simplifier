@@ -6,8 +6,8 @@ import { defaultColorScheme } from "./defaultColorScheme";
 import Link from "next/link";
 import type { Metadata } from "next";
 import "./globals.css";
-import { HeaderSi } from "./components/header";
-import { FooterSi } from "./components/footer";
+import { HeaderSi } from "./components/Header";
+import { FooterSi } from "./components/Footer";
 
 export const metadata: Metadata = {
   title:
