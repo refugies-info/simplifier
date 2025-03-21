@@ -1,10 +1,4 @@
 {
   "python.languageServer": "None",
-  "conventionalCommits.scopes": [
-    "notebooks",
-    "data",
-    "front",
-    "models",
-    "server"
-  ]
+  "conventionalCommits.scopes": ["api", "notebooks", "data", "front", "models"]
 }
