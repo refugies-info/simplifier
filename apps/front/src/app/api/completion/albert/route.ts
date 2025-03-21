@@ -1,11 +1,11 @@
 import { generateText } from "ai";
-
 import { createOpenAI } from "@ai-sdk/openai";
+import { env } from '@/utils/env';
 
 const albert = createOpenAI({
   // custom settings, e.g.
   baseURL: "https://albert.api.etalab.gouv.fr/v1",
-  apiKey: process.env.ALBERT_API_KEY,
+  apiKey: env.ALBERT_API_KEY,
   compatibility: "strict", // strict mode, enable when using the OpenAI API
 });
 
