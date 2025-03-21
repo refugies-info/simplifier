@@ -1,4 +1,12 @@
+# Global
 .env
-.venv
+
+# Node
 node_modules
+
+# Turbo
 .turbo
+
+# Python
+__pycache__
+.venv
