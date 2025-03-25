@@ -1,5 +1,6 @@
 import { ProConnectButton } from "@codegouvfr/react-dsfr/ProConnectButton";
 import Image from "next/image";
+import { handleSignIn } from "@/app/actions/auth";
 
 export const Login = () => {
   return (
@@ -20,7 +21,7 @@ export const Login = () => {
             Bienvenue sur Simplifier.gouv.fr !
           </h2>
           <div>Esse eu velit sit ex ea.</div>
-          <ProConnectButton url="/api/auth" />
+          <ProConnectButton onClick={handleSignIn} />
         </div>
       </div>
     </div>
