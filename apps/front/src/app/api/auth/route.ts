@@ -29,12 +29,12 @@ export const GET = async (req: Request) => {
     secure: env.NODE_ENV === "production",
   });
 
-  const url = new URL(`${PROCONNECT_DOMAIN}/oauth/authorize`);
+  const url = new URL(`${PROCONNECT_DOMAIN}/api/v2/authorize`);
   const params = new URLSearchParams({
     client_id: PROCONNECT_CLIENT_ID!,
     response_type: "code",
     redirect_uri: PROCONNECT_REDIRECT_URI!,
-    scope: "openid email profile phone organizations",
+    scope: "openid uid given_name email phone organizational_unit siret usual_name belonging_population chorusdt",
     state: state,
   });
 
