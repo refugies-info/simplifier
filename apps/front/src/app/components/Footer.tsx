@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import { Footer } from "@codegouvfr/react-dsfr/Footer";
+import { Footer as DsfrFooter } from "@codegouvfr/react-dsfr/Footer";
 
-export const AppFooter = () => {
+export const Footer = () => {
   return (
-    <Footer
+    <DsfrFooter
       className="mt-auto"
       brandTop={
         <>

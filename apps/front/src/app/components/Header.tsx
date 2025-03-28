@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
 import { Badge } from "@codegouvfr/react-dsfr/Badge";
-import { Header } from "@codegouvfr/react-dsfr/Header";
+import { Header as DsfrHeader } from "@codegouvfr/react-dsfr/Header";
 import Link from "next/link";
 
-export const AppHeader = () => {
+export const Header = () => {
   return (
     <>
-      <Header
+      <DsfrHeader
         className="[&_.fr-responsive-img]:w-20"
         brandTop={
           <>
