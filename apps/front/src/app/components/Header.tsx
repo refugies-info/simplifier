@@ -1,10 +1,11 @@
-"use client";
 import React from "react";
 import { Badge } from "@codegouvfr/react-dsfr/Badge";
 import { Header as DsfrHeader } from "@codegouvfr/react-dsfr/Header";
 import Link from "next/link";
+import { auth } from "@/auth";
 
-export const Header = () => {
+export const Header = async () => {
+  const session = await auth();
   return (
     <>
       <DsfrHeader
@@ -28,20 +29,14 @@ export const Header = () => {
         }}
         quickAccessItems={[
           <a
-            href="#"
+            href={session ? "#" : "#"}
             key="co"
-            className="fr-btn fr-icon-lock-line"
+            className={`fr-btn ${
+              session ? "fr-icon-logout-box-r-line" : "fr-icon-user-fill"
+            }`}
             id="fr-header-with-operator-logo-with-link-quick-access-item-1"
           >
-            Se connecter
-          </a>,
-          <a
-            key="enr"
-            href="#"
-            className="fr-btn fr-icon-account-line"
-            id="fr-header-with-operator-logo-with-link-quick-access-item-2"
-          >
-            S’enregistrer
+            {session ? "Se déconnecter" : "Se connecter"}
           </a>,
         ]}
         serviceTagline={
