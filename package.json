@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean:branches": "pnpm dlx git-removed-branches --prune --force",
-    "clean:caches": "rimraf -g \"**/node_modules/.cache\" \"**/.turbo\" \"**/.next\" \"**/dist\" \"**/.cache\" \"**/.expo\" \"**/storybook-static\" \"**/build\" \"**/__pycache__\"",
+    "clean:cache": "rimraf -g \"**/.turbo\" \"**/.next\" \"**/dist\" \"**/.cache\" \"**/.expo\" \"**/storybook-static\" \"**/build\" \"**/__pycache__\"",
     "clean:modules": "rimraf -g \"**/node_modules\" \"**/.venv\"",
     "dev": "turbo run dev",
     "build": "turbo run build",
