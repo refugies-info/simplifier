@@ -12,7 +12,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
       authorization: {
         params: {
           scope:
-            "openid uid given_name email phone organizational_unit siret usual_name belonging_population chorusdt",
+            "openid uid given_name email phone siret usual_name",
         },
       },
       clientId: process.env.PROCONNECT_CLIENT_ID,
