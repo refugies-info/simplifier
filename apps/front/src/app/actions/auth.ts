@@ -1,7 +1,11 @@
 "use server";
 
-import { signIn } from "@/auth";
+import { signIn, signOut } from "@/auth";
 
-export async function handleSignIn() {
+export const handleSignIn = async () => {
   await signIn("proconnect", { redirectTo: "/chat" });
-}
+};
+
+export const handleSignOut = async () => {
+  await signOut();
+};

@@ -3,6 +3,7 @@ import { Badge } from "@codegouvfr/react-dsfr/Badge";
 import { Header as DsfrHeader } from "@codegouvfr/react-dsfr/Header";
 import Link from "next/link";
 import { auth } from "@/auth";
+import { handleSignIn, handleSignOut } from "../actions/auth";
 
 export const Header = async () => {
   const session = await auth();
@@ -13,6 +14,7 @@ export const Header = async () => {
           key="co"
           className="fr-btn fr-icon-logout-box-r-line"
           id="fr-header-with-operator-logo-with-link-quick-access-item-1"
+          onClick={handleSignOut}
         >
           Se déconnecter
         </a>,
@@ -23,6 +25,7 @@ export const Header = async () => {
           key="co"
           className="fr-btn fr-icon-user-fill"
           id="fr-header-with-operator-logo-with-link-quick-access-item-1"
+          onClick={handleSignIn}
         >
           Se connecter
         </a>,
