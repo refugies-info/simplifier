@@ -6,6 +6,27 @@ import { auth } from "@/auth";
 
 export const Header = async () => {
   const session = await auth();
+  const quickAccessItems = session
+    ? [
+        <a
+          href="#"
+          key="co"
+          className="fr-btn fr-icon-logout-box-r-line"
+          id="fr-header-with-operator-logo-with-link-quick-access-item-1"
+        >
+          Se déconnecter
+        </a>,
+      ]
+    : [
+        <a
+          href="#"
+          key="co"
+          className="fr-btn fr-icon-user-fill"
+          id="fr-header-with-operator-logo-with-link-quick-access-item-1"
+        >
+          Se connecter
+        </a>,
+      ];
   return (
     <>
       <DsfrHeader
@@ -27,18 +48,7 @@ export const Header = async () => {
           imgUrl: "/images/simplifier-info-logo.svg",
           orientation: "horizontal",
         }}
-        quickAccessItems={[
-          <a
-            href={session ? "#" : "#"}
-            key="co"
-            className={`fr-btn ${
-              session ? "fr-icon-logout-box-r-line" : "fr-icon-user-fill"
-            }`}
-            id="fr-header-with-operator-logo-with-link-quick-access-item-1"
-          >
-            {session ? "Se déconnecter" : "Se connecter"}
-          </a>,
-        ]}
+        quickAccessItems={quickAccessItems}
         serviceTagline={
           <>
             <Link
