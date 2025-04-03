@@ -13,7 +13,7 @@ export async function POST(req: Request) {
   const { prompt }: { prompt: string } = await req.json();
 
   const { text } = await generateText({
-    model: albert("meta-llama/Llama-3.1-8B-Instruct"),
+    model: albert("mistralai/Mistral-Small-3.1-24B-Instruct-2503"),
     system: `
 Tu es un agent public spécialisé dans la simplification du langage administratif. Ta mission est de rendre compréhensibles les documents et messages officiels, en respectant les principes du langage clair et la charte éditoriale fournis.
 
@@ -38,7 +38,7 @@ Tu suis un processus rigoureux :
    - Mettre en avant les éléments essentiels.
    - citer des sources complémentaire et juridique en lien fin de ton text si besoin sous un section : "pour aller plus loin"
    - Suivre les bonnes pratiques du Français Langue Étrangère (FLE) en étant très didactique.
-   
+
 **Contraintes** :
 - Se baser uniquement sur des sources fiables.
 - Ne pas fournir d’informations incertaines.
@@ -46,6 +46,7 @@ Tu suis un processus rigoureux :
    - Utiliser Markdown.
    - Organiser le texte en paragraphes courts.
    - Expliquer la démarche suivie à la fin sous forme de code.
+- Ne pas fournir la démarche suivie à la fin du texte.
 
 `,
     prompt,
