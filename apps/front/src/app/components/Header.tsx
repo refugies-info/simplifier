@@ -1,13 +1,38 @@
-"use client";
 import React from "react";
 import { Badge } from "@codegouvfr/react-dsfr/Badge";
-import { Header } from "@codegouvfr/react-dsfr/Header";
+import { Header as DsfrHeader } from "@codegouvfr/react-dsfr/Header";
 import Link from "next/link";
+import { auth } from "@/auth";
+import { handleSignIn, handleSignOut } from "../actions/auth";
 
-function HeaderSi() {
+export const Header = async () => {
+  const session = await auth();
+  const quickAccessItems = session
+    ? [
+        <a
+          href="#"
+          key="co"
+          className="fr-btn fr-icon-logout-box-r-line"
+          id="fr-header-with-operator-logo-with-link-quick-access-item-1"
+          onClick={handleSignOut}
+        >
+          Se déconnecter
+        </a>,
+      ]
+    : [
+        <a
+          href="#"
+          key="co"
+          className="fr-btn fr-icon-user-fill"
+          id="fr-header-with-operator-logo-with-link-quick-access-item-1"
+          onClick={handleSignIn}
+        >
+          Se connecter
+        </a>,
+      ];
   return (
     <>
-      <Header
+      <DsfrHeader
         className="[&_.fr-responsive-img]:w-20"
         brandTop={
           <>
@@ -26,24 +51,7 @@ function HeaderSi() {
           imgUrl: "/images/simplifier-info-logo.svg",
           orientation: "horizontal",
         }}
-        quickAccessItems={[
-          <a
-            href="#"
-            key="co"
-            className="fr-btn fr-icon-lock-line"
-            id="fr-header-with-operator-logo-with-link-quick-access-item-1"
-          >
-            Se connecter
-          </a>,
-          <a
-            key="enr"
-            href="#"
-            className="fr-btn fr-icon-account-line"
-            id="fr-header-with-operator-logo-with-link-quick-access-item-2"
-          >
-            S’enregistrer
-          </a>,
-        ]}
+        quickAccessItems={quickAccessItems}
         serviceTagline={
           <>
             <Link
@@ -73,8 +81,4 @@ function HeaderSi() {
       />
     </>
   );
-}
-
-HeaderSi.propTypes = {};
-
-export { HeaderSi };
+};

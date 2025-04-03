@@ -1,6 +1,7 @@
 "use client";
-import Chat from "./components/Chat";
+
+import { Login } from "./components/Login";
 
 export default function Page() {
-  return <Chat />;
+  return <Login />;
 }
